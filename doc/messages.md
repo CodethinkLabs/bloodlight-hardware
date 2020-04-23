@@ -62,13 +62,15 @@ Message definitions
 
 ### Start sampling
 
-* Start sampling a photodiode.
+* Start sampling a photodiode with given gain.
+  - Gains are powers of two, up to 16.
 * Expects a response message.
 
-| Byte offset | Bytes | Purpose          | Value            |
-| ----------- | ----- | ---------------- | ---------------- |
-| 0           | 1     | Message ID       | `3`              |
-| 0           | 1     | Photodiode index | `0`-`3`          |
+| Byte offset | Bytes | Purpose          | Value                       |
+| ----------- | ----- | ---------------- | --------------------------- |
+| 0           | 1     | Message ID       | `3`                         |
+| 0           | 1     | Gain-mode        | `0`-`4`, where `gain = 2^N` |
+| 0           | 1     | Photodiode index | `0`-`3`                     |
 
 > **TODO**: We might want to pass a sampling rate.
 
