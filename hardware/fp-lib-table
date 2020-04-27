@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name footprints)(type KiCad)(uri footprints)(options "")(descr ""))
+  (lib (name rounded)(type KiCad)(uri footprints/rounded)(options "")(descr ""))
+)

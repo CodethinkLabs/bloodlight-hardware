@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP XC6206P332MR
+D 200mA low dropout linear regulator, 3.6V-6V input voltage, 3.3V fixed positive output, SOT-23 package
+K linear regulator ldo fixed positive
+F https://datasheet.lcsc.com/szlcsc/1809201513_Torex-Semicon-XC6206P332MR_C5446.pdf
+$ENDCMP
+#
+#End Doc Library

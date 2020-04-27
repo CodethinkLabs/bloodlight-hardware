@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM4132
+D 3.3V ±0.05% Precision Low Dropout Voltage Reference, SOT-23-5
+K Precision Low Dropout Voltage Reference 3.3V
+F http://www.ti.com/lit/ds/symlink/lm4132.pdf
+$ENDCMP
+#
+#End Doc Library
