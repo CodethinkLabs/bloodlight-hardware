@@ -2595,4 +2595,30 @@ Text Label 5200 3100 2    50   ~ 0
 UC_STATUS_LED
 Wire Wire Line
 	5200 3100 5300 3100
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5EAC048C
+P 1700 5800
+F 0 "TP3" H 1758 5918 50  0000 L CNN
+F 1 "FORCE_GND" H 1758 5827 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1900 5800 50  0001 C CNN
+F 3 "~" H 1900 5800 50  0001 C CNN
+	1    1700 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EAFA382
+P 1700 5900
+F 0 "#PWR?" H 1700 5650 50  0001 C CNN
+F 1 "GND" H 1705 5727 50  0000 C CNN
+F 2 "" H 1700 5900 50  0001 C CNN
+F 3 "" H 1700 5900 50  0001 C CNN
+	1    1700 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 5900 1700 5800
+Text Notes 1800 6000 0    50   ~ 0
+This TP is used to force\ngroundfill on shield PCB.
 $EndSCHEMATC
