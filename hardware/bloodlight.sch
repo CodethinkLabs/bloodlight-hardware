@@ -468,12 +468,12 @@ F 3 "" H 8600 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP_Small C20
+L Device:C_Small C20
 U 1 1 5EA0B466
 P 8600 3200
 F 0 "C20" H 8500 3250 50  0000 R CNN
 F 1 "4.7uF/16V" H 8500 3150 50  0000 R CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B" H 8600 3200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 8600 3200 50  0001 C CNN
 F 3 "~" H 8600 3200 50  0001 C CNN
 	1    8600 3200
 	1    0    0    -1  
@@ -500,12 +500,12 @@ F 3 "" H 9600 3000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:CP_Small C19
+L Device:C_Small C19
 U 1 1 5EA2F24E
 P 9500 3200
 F 0 "C19" H 9600 3250 50  0000 L CNN
 F 1 "1uF/16V" H 9600 3150 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A" H 9500 3200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9500 3200 50  0001 C CNN
 F 3 "~" H 9500 3200 50  0001 C CNN
 	1    9500 3200
 	1    0    0    -1  
@@ -533,12 +533,12 @@ Wire Wire Line
 	9600 3000 9500 3000
 Connection ~ 9500 3000
 $Comp
-L Device:CP_Small C18
+L Device:C_Small C18
 U 1 1 5EA558C0
 P 9500 2200
 F 0 "C18" H 9600 2250 50  0000 L CNN
 F 1 "1uF/16V" H 9600 2150 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A" H 9500 2200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9500 2200 50  0001 C CNN
 F 3 "~" H 9500 2200 50  0001 C CNN
 	1    9500 2200
 	1    0    0    -1  
@@ -557,12 +557,12 @@ Connection ~ 9100 2400
 Wire Wire Line
 	9100 2400 9100 2500
 $Comp
-L Device:CP_Small C17
+L Device:C_Small C17
 U 1 1 5EA701DF
 P 8700 2200
 F 0 "C17" H 8600 2250 50  0000 R CNN
 F 1 "1uF/16V" H 8600 2150 50  0000 R CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A" H 8700 2200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8700 2200 50  0001 C CNN
 F 3 "~" H 8700 2200 50  0001 C CNN
 	1    8700 2200
 	1    0    0    -1  
@@ -1804,12 +1804,12 @@ $EndComp
 Wire Wire Line
 	2600 1100 2700 1100
 $Comp
-L Device:CP_Small C16
+L Device:C_Small C16
 U 1 1 60586589
 P 2900 900
 F 0 "C16" V 3000 950 50  0000 L CNN
 F 1 "1uF/16V" V 3000 500 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A" H 2900 900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2900 900 50  0001 C CNN
 F 3 "~" H 2900 900 50  0001 C CNN
 	1    2900 900 
 	0    -1   -1   0   
@@ -1863,12 +1863,12 @@ $EndComp
 Wire Wire Line
 	1100 1100 1200 1100
 $Comp
-L Device:CP_Small C15
+L Device:C_Small C15
 U 1 1 606BF6F5
 P 1400 900
 F 0 "C15" V 1500 950 50  0000 L CNN
 F 1 "1uF/16V" V 1500 500 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A" H 1400 900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1400 900 50  0001 C CNN
 F 3 "~" H 1400 900 50  0001 C CNN
 	1    1400 900 
 	0    -1   -1   0   
