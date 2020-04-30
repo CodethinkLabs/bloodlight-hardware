@@ -181,7 +181,7 @@ C;X12;Y14;K0;EK14*H14
 C;X13;Y14;K0;EK14*G14
 C;X15;Y14;K0
 C;X17;Y14;K"https://www.digikey.co.uk/product-detail/en/inolux/IN-S126BTNPD/1830-IN-S126BTNPDCT-ND/10384816"
-C;X1;Y15;K"Photodiode, 1580nm (800-1700)"
+C;X1;Y15;K"Photodiode, 1560nm (800-1700)"
 C;X2;Y15;K"PD4"
 C;X4;Y15;K"Advanced Photonix"
 C;X5;Y15;K"003-151-001"
@@ -459,7 +459,7 @@ C;X14;Y41;K"C57112"
 C;X15;Y41;K1
 C;X16;Y41;K0
 C;X17;Y41;K"https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_10nF-103-10-50V_C57112.html"
-C;X1;Y42;K"Capacitor, 10nF, 16V"
+C;X1;Y42;K"Capacitor, 10nF, 50V"
 C;X2;Y42;K"C8"
 C;X3;Y42;K"Filter"
 C;X4;Y42;K"Samsung Electro-Mechanics"

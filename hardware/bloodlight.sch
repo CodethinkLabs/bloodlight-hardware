@@ -2047,9 +2047,9 @@ Wire Wire Line
 	9350 1350 9450 1350
 Text Label 6700 3400 0    50   ~ 0
 PDV3
-Text Label 6700 3000 0    50   ~ 0
-PDV1
 Text Label 6700 3100 0    50   ~ 0
+PDV1
+Text Label 6700 3000 0    50   ~ 0
 PDV2
 Text Label 6700 3200 0    50   ~ 0
 PDV4
