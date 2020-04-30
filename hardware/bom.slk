@@ -194,7 +194,11 @@ C;X12;Y15;K0;EK15*H15
 C;X13;Y15;K0;EK15*G15
 C;X15;Y15;K0
 C;X17;Y15;K"https://www.digikey.co.uk/product-detail/en/advanced-photonix/003-151-001/209-003-151-001CT-ND/5222595"
+C;X1;Y16;K"LED, 850nm, 20mA, 1.45V"
 C;X2;Y16;K"LD1"
+C;X4;Y16;K"Stanley Electric Co"
+C;X5;Y16;K"HDN1102W-TR"
+C;X6;Y16;K"1206D"
 C;X7;Y16;K1
 C;X8;Y16;K1
 C;X9;Y16;K2
@@ -202,7 +206,12 @@ C;X10;Y16;K2;EG16*I16
 C;X12;Y16;K0;EK16*H16
 C;X13;Y16;K0;EK16*G16
 C;X15;Y16;K0
+C;X17;Y16;K"https://www.digikey.co.uk/product-detail/en/stanley-electric-co/HDN1102W-TR/404-1329-1-ND/9477334"
+C;X1;Y17;K"LED, 880nm, 20mA, 1.3V"
 C;X2;Y17;K"LD2"
+C;X4;Y17;K"Kingbright"
+C;X5;Y17;K"APT1608SF4C-PRV"
+C;X6;Y17;K"0603D"
 C;X7;Y17;K1
 C;X8;Y17;K1
 C;X9;Y17;K2
@@ -210,7 +219,12 @@ C;X10;Y17;K2;EG17*I17
 C;X12;Y17;K0;EK17*H17
 C;X13;Y17;K0;EK17*G17
 C;X15;Y17;K0
+C;X17;Y17;K"https://www.digikey.co.uk/product-detail/en/kingbright/APT1608SF4C-PRV/754-1859-1-ND/4977031"
+C;X1;Y18;K"LED, 940nm, 20mA, 1.2V"
 C;X2;Y18;K"LD3"
+C;X4;Y18;K"Everlight Electronics Co Ltd"
+C;X5;Y18;K"IR17-21C/TR8"
+C;X6;Y18;K"0805D"
 C;X7;Y18;K1
 C;X8;Y18;K1
 C;X9;Y18;K2
@@ -218,7 +232,12 @@ C;X10;Y18;K2;EG18*I18
 C;X12;Y18;K0;EK18*H18
 C;X13;Y18;K0;EK18*G18
 C;X15;Y18;K0
+C;X17;Y18;K"https://www.digikey.co.uk/product-detail/en/everlight-electronics-co-ltd/IR17-21C-TR8/1080-1353-1-ND/2676087"
+C;X1;Y19;K"LED, 1040nm, 50mA, 1,3V"
 C;X2;Y19;K"LD4"
+C;X4;Y19;K"Marktech Optoelectronics"
+C;X5;Y19;K"MTSM4110MT2-BK"
+C;X6;Y19;K"PLCC-2"
 C;X7;Y19;K1
 C;X8;Y19;K1
 C;X9;Y19;K2
@@ -226,7 +245,12 @@ C;X10;Y19;K2;EG19*I19
 C;X12;Y19;K0;EK19*H19
 C;X13;Y19;K0;EK19*G19
 C;X15;Y19;K0
+C;X17;Y19;K"https://www.digikey.co.uk/product-detail/en/marktech-optoelectronics/MTSM4110MT2-BK/1125-MTSM4110MT2-BKCT-ND/11307533"
+C;X1;Y20;K"LED, 1200nm, 20mA, 1V"
 C;X2;Y20;K"LD5"
+C;X4;Y20;K"Marktech Optoelectronics"
+C;X5;Y20;K"MTSM0012-199-IR"
+C;X6;Y20;K"1206D"
 C;X7;Y20;K1
 C;X8;Y20;K1
 C;X9;Y20;K2
@@ -234,7 +258,12 @@ C;X10;Y20;K2;EG20*I20
 C;X12;Y20;K0;EK20*H20
 C;X13;Y20;K0;EK20*G20
 C;X15;Y20;K0
+C;X17;Y20;K"https://www.digikey.co.uk/product-detail/en/marktech-optoelectronics/MTSM0012-199-IR/1125-1331-ND/5872600"
+C;X1;Y21;K"LED, 1450nm, 20mA, 1V"
 C;X2;Y21;K"LD6"
+C;X4;Y21;K"Marktech Optoelectronics"
+C;X5;Y21;K"MTSM5014-199-IR"
+C;X6;Y21;K"1206D"
 C;X7;Y21;K1
 C;X8;Y21;K1
 C;X9;Y21;K2
@@ -242,7 +271,12 @@ C;X10;Y21;K2;EG21*I21
 C;X12;Y21;K0;EK21*H21
 C;X13;Y21;K0;EK21*G21
 C;X15;Y21;K0
+C;X17;Y21;K"https://www.digikey.co.uk/product-detail/en/marktech-optoelectronics/MTSM5014-199-IR/1125-1346-ND/5872615"
+C;X1;Y22;K"LED, 1550nm, 20mA, 1V"
 C;X2;Y22;K"LD7"
+C;X4;Y22;K"Marktech Optoelectronics"
+C;X5;Y22;K"MTSM5015-199-IR"
+C;X6;Y22;K"1206D"
 C;X7;Y22;K1
 C;X8;Y22;K1
 C;X9;Y22;K2
@@ -250,7 +284,12 @@ C;X10;Y22;K2;EG22*I22
 C;X12;Y22;K0;EK22*H22
 C;X13;Y22;K0;EK22*G22
 C;X15;Y22;K0
+C;X17;Y22;K"https://www.digikey.co.uk/product-detail/en/marktech-optoelectronics/MTSM5015-199-IR/1125-1350-ND/5872619"
+C;X1;Y23;K"LED, 1650nm, 20mA, 1V"
 C;X2;Y23;K"LD8"
+C;X4;Y23;K"Marktech Optoelectronics"
+C;X5;Y23;K"MTSM5016-199-IR"
+C;X6;Y23;K"1206D"
 C;X7;Y23;K1
 C;X8;Y23;K1
 C;X9;Y23;K2
@@ -258,7 +297,12 @@ C;X10;Y23;K2;EG23*I23
 C;X12;Y23;K0;EK23*H23
 C;X13;Y23;K0;EK23*G23
 C;X15;Y23;K0
+C;X17;Y23;K"https://www.digikey.co.uk/product-detail/en/marktech-optoelectronics/MTSM5016-199-IR/1125-1354-ND/5872623"
+C;X1;Y24;K"LED, 740nm, 20mA, 1.7V"
 C;X2;Y24;K"LD9"
+C;X4;Y24;K"Marktech Optoelectronics"
+C;X5;Y24;K"MTSM0074-843-IR"
+C;X6;Y24;K"1206D"
 C;X7;Y24;K1
 C;X8;Y24;K1
 C;X9;Y24;K2
@@ -266,7 +310,12 @@ C;X10;Y24;K2;EG24*I24
 C;X12;Y24;K0;EK24*H24
 C;X13;Y24;K0;EK24*G24
 C;X15;Y24;K0
+C;X17;Y24;K"https://www.digikey.co.uk/product-detail/en/marktech-optoelectronics/MTSM0074-843-IR/1125-1336-ND/5872605"
+C;X1;Y25;K"LED, 660nm, 20mA, 1.8V"
 C;X2;Y25;K"LD10"
+C;X4;Y25;K"OSRAM Opto Semiconductors Inc."
+C;X5;Y25;K"LH R974-LP-1"
+C;X6;Y25;K"0805D"
 C;X7;Y25;K1
 C;X8;Y25;K1
 C;X9;Y25;K2
@@ -274,7 +323,12 @@ C;X10;Y25;K2;EG25*I25
 C;X12;Y25;K0;EK25*H25
 C;X13;Y25;K0;EK25*G25
 C;X15;Y25;K0
+C;X17;Y25;K"https://www.digikey.co.uk/product-detail/en/osram-opto-semiconductors-inc/LH-R974-LP-1/475-1415-1-ND/1802604"
+C;X1;Y26;K"LED, 638nm, 20mA, 2.1V"
 C;X2;Y26;K"LD11"
+C;X4;Y26;K"Stanley Electric Co"
+C;X5;Y26;K"FKR1111C-TR"
+C;X6;Y26;K"0603D"
 C;X7;Y26;K1
 C;X8;Y26;K1
 C;X9;Y26;K2
@@ -282,7 +336,12 @@ C;X10;Y26;K2;EG26*I26
 C;X12;Y26;K0;EK26*H26
 C;X13;Y26;K0;EK26*G26
 C;X15;Y26;K0
+C;X17;Y26;K"https://www.digikey.co.uk/product-detail/en/stanley-electric-co/FKR1111C-TR/404-1269-1-ND/9477274"
+C;X1;Y27;K"LED, 612nm, 20mA, 2V"
 C;X2;Y27;K"LD12"
+C;X4;Y27;K"Broadcom Limited"
+C;X5;Y27;K"ASMT-RJ45-AQ502"
+C;X6;Y27;K"0603D"
 C;X7;Y27;K1
 C;X8;Y27;K1
 C;X9;Y27;K2
@@ -290,7 +349,12 @@ C;X10;Y27;K2;EG27*I27
 C;X12;Y27;K0;EK27*H27
 C;X13;Y27;K0;EK27*G27
 C;X15;Y27;K0
+C;X17;Y27;K"https://www.digikey.co.uk/product-detail/en/broadcom-limited/ASMT-RJ45-AQ502/516-ASMT-RJ45-AQ502CT-ND/10511987"
+C;X1;Y28;K"LED, 590nm, 20mA, 2V"
 C;X2;Y28;K"LD13"
+C;X4;Y28;K"Kingbright"
+C;X5;Y28;K"APT2012SYCK"
+C;X6;Y28;K"0805D"
 C;X7;Y28;K1
 C;X8;Y28;K1
 C;X9;Y28;K2
@@ -298,7 +362,12 @@ C;X10;Y28;K2;EG28*I28
 C;X12;Y28;K0;EK28*H28
 C;X13;Y28;K0;EK28*G28
 C;X15;Y28;K0
+C;X17;Y28;K"https://www.digikey.co.uk/product-detail/en/kingbright/APT2012SYCK/754-1134-1-ND/1747851"
+C;X1;Y29;K"LED, 570nm, 20mA, 2.1V"
 C;X2;Y29;K"LD14"
+C;X4;Y29;K"Broadcom Limited"
+C;X5;Y29;K"HSME-C110"
+C;X6;Y29;K"1206D*"
 C;X7;Y29;K1
 C;X8;Y29;K1
 C;X9;Y29;K2
@@ -306,7 +375,12 @@ C;X10;Y29;K2;EG29*I29
 C;X12;Y29;K0;EK29*H29
 C;X13;Y29;K0;EK29*G29
 C;X15;Y29;K0
+C;X17;Y29;K"https://www.digikey.co.uk/product-detail/en/broadcom-limited/HSME-C110/516-3982-1-ND/8537290"
+C;X1;Y30;K"LED, 528nm, 20mA, 3.2V"
 C;X2;Y30;K"LD15"
+C;X4;Y30;K"Inolux"
+C;X5;Y30;K"IN-S85ATG"
+C;X6;Y30;K"0805D"
 C;X7;Y30;K1
 C;X8;Y30;K1
 C;X9;Y30;K2
@@ -314,7 +388,12 @@ C;X10;Y30;K2;EG30*I30
 C;X12;Y30;K0;EK30*H30
 C;X13;Y30;K0;EK30*G30
 C;X15;Y30;K0
+C;X17;Y30;K"https://www.digikey.co.uk/product-detail/en/inolux/IN-S85ATG/1830-1079-1-ND/7604723"
+C;X1;Y31;K"LED, 470nm, 20mA, 3.3V"
 C;X2;Y31;K"LD16"
+C;X4;Y31;K"American Bright Optoelectronics Corporation"
+C;X5;Y31;K"BL-HB332Y"
+C;X6;Y31;K"PLCC-2*"
 C;X7;Y31;K1
 C;X8;Y31;K1
 C;X9;Y31;K2
@@ -322,6 +401,7 @@ C;X10;Y31;K2;EG31*I31
 C;X12;Y31;K0;EK31*H31
 C;X13;Y31;K0;EK31*G31
 C;X15;Y31;K0
+C;X17;Y31;K"https://www.digikey.co.uk/product-detail/en/american-bright-optoelectronics-corporation/BL-HB332Y/BL-HB332YCT-ND/9678305"
 C;X1;Y32;K"LED, Green, 2V/5mA"
 C;X2;Y32;K"LD17"
 C;X3;Y32;K"Status"
@@ -623,9 +703,11 @@ C;X14;Y50;K"C13318"
 C;X15;Y50;K1
 C;X16;Y50;K1
 C;X17;Y50;K"https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0603WAF1804T5E_C13318.html"
+C;X1;Y51;K"Resistor, 56, 1%"
 C;X2;Y51;K"R5"
 C;X3;Y51;K"Configures LD1"
 C;X4;Y51;K"Uniroyal Elec"
+C;X5;Y51;K"0603WAF560JT5E"
 C;X6;Y51;K"0603R"
 C;X7;Y51;K1
 C;X8;Y51;K1
@@ -633,11 +715,15 @@ C;X9;Y51;K2
 C;X10;Y51;K2;EG51*I51
 C;X12;Y51;K0;EK51*H51
 C;X13;Y51;K0;EK51*G51
+C;X14;Y51;K"C25196"
 C;X15;Y51;K1
 C;X16;Y51;K0
+C;X17;Y51;K"https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0603WAF560JT5E_C25196.html"
+C;X1;Y52;K"Resistor, 68, 1%"
 C;X2;Y52;K"R6"
 C;X3;Y52;K"Configures LD2"
 C;X4;Y52;K"Uniroyal Elec"
+C;X5;Y52;K"0603WAF680JT5E"
 C;X6;Y52;K"0603R"
 C;X7;Y52;K1
 C;X8;Y52;K1
@@ -645,11 +731,15 @@ C;X9;Y52;K2
 C;X10;Y52;K2;EG52*I52
 C;X12;Y52;K0;EK52*H52
 C;X13;Y52;K0;EK52*G52
+C;X14;Y52;K"C27592"
 C;X15;Y52;K1
 C;X16;Y52;K0
+C;X17;Y52;K"https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0603WAF680JT5E_C27592.html"
+C;X1;Y53;K"Resistor, 75, 1%"
 C;X2;Y53;K"R7"
 C;X3;Y53;K"Configures LD3"
 C;X4;Y53;K"Uniroyal Elec"
+C;X5;Y53;K"0603WAF750JT5E"
 C;X6;Y53;K"0603R"
 C;X7;Y53;K1
 C;X8;Y53;K1
@@ -657,11 +747,15 @@ C;X9;Y53;K2
 C;X10;Y53;K2;EG53*I53
 C;X12;Y53;K0;EK53*H53
 C;X13;Y53;K0;EK53*G53
+C;X14;Y53;K"C4275"
 C;X15;Y53;K1
 C;X16;Y53;K0
+C;X17;Y53;K"https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0603WAF750JT5E_C4275.html"
+C;X1;Y54;K"Resistor, 27, 1%"
 C;X2;Y54;K"R8"
 C;X3;Y54;K"Configures LD4"
 C;X4;Y54;K"Uniroyal Elec"
+C;X5;Y54;K"0603WAF270JT5E"
 C;X6;Y54;K"0603R"
 C;X7;Y54;K1
 C;X8;Y54;K1
@@ -669,11 +763,15 @@ C;X9;Y54;K2
 C;X10;Y54;K2;EG54*I54
 C;X12;Y54;K0;EK54*H54
 C;X13;Y54;K0;EK54*G54
+C;X14;Y54;K"C25190"
 C;X15;Y54;K1
 C;X16;Y54;K0
+C;X17;Y54;K"https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0603WAF270JT5E_C25190.html"
+C;X1;Y55;K"Resistor, 82, 1%"
 C;X2;Y55;K"R9"
 C;X3;Y55;K"Configures LD5"
 C;X4;Y55;K"Uniroyal Elec"
+C;X5;Y55;K"0603WAF820JT5E"
 C;X6;Y55;K"0603R"
 C;X7;Y55;K1
 C;X8;Y55;K1
@@ -681,11 +779,15 @@ C;X9;Y55;K2
 C;X10;Y55;K2;EG55*I55
 C;X12;Y55;K0;EK55*H55
 C;X13;Y55;K0;EK55*G55
+C;X14;Y55;K"C23255"
 C;X15;Y55;K1
 C;X16;Y55;K0
+C;X17;Y55;K"https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0603WAF820JT5E_C23255.html"
+C;X1;Y56;K"Resistor, 82, 1%"
 C;X2;Y56;K"R10"
 C;X3;Y56;K"Configures LD6"
 C;X4;Y56;K"Uniroyal Elec"
+C;X5;Y56;K"0603WAF820JT5E"
 C;X6;Y56;K"0603R"
 C;X7;Y56;K1
 C;X8;Y56;K1
@@ -693,11 +795,15 @@ C;X9;Y56;K2
 C;X10;Y56;K2;EG56*I56
 C;X12;Y56;K0;EK56*H56
 C;X13;Y56;K0;EK56*G56
+C;X14;Y56;K"C23255"
 C;X15;Y56;K1
 C;X16;Y56;K0
+C;X17;Y56;K"https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0603WAF820JT5E_C23255.html"
+C;X1;Y57;K"Resistor, 82, 1%"
 C;X2;Y57;K"R11"
 C;X3;Y57;K"Configures LD7"
 C;X4;Y57;K"Uniroyal Elec"
+C;X5;Y57;K"0603WAF820JT5E"
 C;X6;Y57;K"0603R"
 C;X7;Y57;K1
 C;X8;Y57;K1
@@ -705,11 +811,15 @@ C;X9;Y57;K2
 C;X10;Y57;K2;EG57*I57
 C;X12;Y57;K0;EK57*H57
 C;X13;Y57;K0;EK57*G57
+C;X14;Y57;K"C23255"
 C;X15;Y57;K1
 C;X16;Y57;K0
+C;X17;Y57;K"https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0603WAF820JT5E_C23255.html"
+C;X1;Y58;K"Resistor, 82, 1%"
 C;X2;Y58;K"R12"
 C;X3;Y58;K"Configures LD8"
 C;X4;Y58;K"Uniroyal Elec"
+C;X5;Y58;K"0603WAF820JT5E"
 C;X6;Y58;K"0603R"
 C;X7;Y58;K1
 C;X8;Y58;K1
@@ -717,11 +827,15 @@ C;X9;Y58;K2
 C;X10;Y58;K2;EG58*I58
 C;X12;Y58;K0;EK58*H58
 C;X13;Y58;K0;EK58*G58
+C;X14;Y58;K"C23255"
 C;X15;Y58;K1
 C;X16;Y58;K0
+C;X17;Y58;K"https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0603WAF820JT5E_C23255.html"
+C;X1;Y59;K"Resistor, 130, 1%"
 C;X2;Y59;K"R13"
 C;X3;Y59;K"Configures LD9"
 C;X4;Y59;K"Uniroyal Elec"
+C;X5;Y59;K"0603WAF1300T5E"
 C;X6;Y59;K"0603R"
 C;X7;Y59;K1
 C;X8;Y59;K1
@@ -729,11 +843,15 @@ C;X9;Y59;K2
 C;X10;Y59;K2;EG59*I59
 C;X12;Y59;K0;EK59*H59
 C;X13;Y59;K0;EK59*G59
+C;X14;Y59;K"C22796"
 C;X15;Y59;K1
 C;X16;Y59;K0
+C;X17;Y59;K"https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0603WAF1300T5E_C22796.html"
+C;X1;Y60;K"Resistor, 130, 1%"
 C;X2;Y60;K"R14"
 C;X3;Y60;K"Configures LD10"
 C;X4;Y60;K"Uniroyal Elec"
+C;X5;Y60;K"0603WAF1300T5E"
 C;X6;Y60;K"0603R"
 C;X7;Y60;K1
 C;X8;Y60;K1
@@ -741,11 +859,15 @@ C;X9;Y60;K2
 C;X10;Y60;K2;EG60*I60
 C;X12;Y60;K0;EK60*H60
 C;X13;Y60;K0;EK60*G60
+C;X14;Y60;K"C22796"
 C;X15;Y60;K1
 C;X16;Y60;K0
+C;X17;Y60;K"https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0603WAF1300T5E_C22796.html"
+C;X1;Y61;K"Resistor, 110, 1%"
 C;X2;Y61;K"R15"
 C;X3;Y61;K"Configures LD11"
 C;X4;Y61;K"Uniroyal Elec"
+C;X5;Y61;K"0603WAF1100T5E"
 C;X6;Y61;K"0603R"
 C;X7;Y61;K1
 C;X8;Y61;K1
@@ -753,11 +875,15 @@ C;X9;Y61;K2
 C;X10;Y61;K2;EG61*I61
 C;X12;Y61;K0;EK61*H61
 C;X13;Y61;K0;EK61*G61
+C;X14;Y61;K"C22781"
 C;X15;Y61;K1
 C;X16;Y61;K0
+C;X17;Y61;K"https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0603WAF1100T5E_C22781.html"
+C;X1;Y62;K"Resistor, 120, 1%"
 C;X2;Y62;K"R16"
 C;X3;Y62;K"Configures LD12"
 C;X4;Y62;K"Uniroyal Elec"
+C;X5;Y62;K"0603WAF1200T5E"
 C;X6;Y62;K"0603R"
 C;X7;Y62;K1
 C;X8;Y62;K1
@@ -765,11 +891,15 @@ C;X9;Y62;K2
 C;X10;Y62;K2;EG62*I62
 C;X12;Y62;K0;EK62*H62
 C;X13;Y62;K0;EK62*G62
+C;X14;Y62;K"C22787"
 C;X15;Y62;K1
 C;X16;Y62;K0
+C;X17;Y62;K"https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0603WAF1200T5E_C22787.html"
+C;X1;Y63;K"Resistor, 120, 1%"
 C;X2;Y63;K"R17"
 C;X3;Y63;K"Configures LD13"
 C;X4;Y63;K"Uniroyal Elec"
+C;X5;Y63;K"0603WAF1200T5E"
 C;X6;Y63;K"0603R"
 C;X7;Y63;K1
 C;X8;Y63;K1
@@ -777,11 +907,15 @@ C;X9;Y63;K2
 C;X10;Y63;K2;EG63*I63
 C;X12;Y63;K0;EK63*H63
 C;X13;Y63;K0;EK63*G63
+C;X14;Y63;K"C22787"
 C;X15;Y63;K1
 C;X16;Y63;K0
+C;X17;Y63;K"https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0603WAF1200T5E_C22787.html"
+C;X1;Y64;K"Resistor, 110, 1%"
 C;X2;Y64;K"R18"
 C;X3;Y64;K"Configures LD14"
 C;X4;Y64;K"Uniroyal Elec"
+C;X5;Y64;K"0603WAF1100T5E"
 C;X6;Y64;K"0603R"
 C;X7;Y64;K1
 C;X8;Y64;K1
@@ -789,11 +923,15 @@ C;X9;Y64;K2
 C;X10;Y64;K2;EG64*I64
 C;X12;Y64;K0;EK64*H64
 C;X13;Y64;K0;EK64*G64
+C;X14;Y64;K"C22781"
 C;X15;Y64;K1
 C;X16;Y64;K0
+C;X17;Y64;K"https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0603WAF1100T5E_C22781.html"
+C;X1;Y65;K"Resistor, 56, 1%"
 C;X2;Y65;K"R19"
 C;X3;Y65;K"Configures LD15"
 C;X4;Y65;K"Uniroyal Elec"
+C;X5;Y65;K"0603WAF560JT5E"
 C;X6;Y65;K"0603R"
 C;X7;Y65;K1
 C;X8;Y65;K1
@@ -801,11 +939,15 @@ C;X9;Y65;K2
 C;X10;Y65;K2;EG65*I65
 C;X12;Y65;K0;EK65*H65
 C;X13;Y65;K0;EK65*G65
+C;X14;Y65;K"C25196"
 C;X15;Y65;K1
 C;X16;Y65;K0
+C;X17;Y65;K"https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0603WAF560JT5E_C25196.html"
+C;X1;Y66;K"Resistor, 56, 1%"
 C;X2;Y66;K"R20"
 C;X3;Y66;K"Configures LD16"
 C;X4;Y66;K"Uniroyal Elec"
+C;X5;Y66;K"0603WAF560JT5E"
 C;X6;Y66;K"0603R"
 C;X7;Y66;K1
 C;X8;Y66;K1
@@ -813,8 +955,10 @@ C;X9;Y66;K2
 C;X10;Y66;K2;EG66*I66
 C;X12;Y66;K0;EK66*H66
 C;X13;Y66;K0;EK66*G66
+C;X14;Y66;K"C25196"
 C;X15;Y66;K1
 C;X16;Y66;K0
+C;X17;Y66;K"https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0603WAF560JT5E_C25196.html"
 C;X1;Y67;K"Resistor, 1.5k, 1%"
 C;X2;Y67;K"R21"
 C;X3;Y67;K"USB FS Pull-Up"

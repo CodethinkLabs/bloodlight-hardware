@@ -1,5 +1,6 @@
 # TODO
 
+- Create rounded pad, handsolder PLCC2 footprint for LD4
 - Consider a known brand low-noise 3.3V LDO
 - Select LED's & related resistors/capacitors
 - Add Transimpedance Amplifier (TIA) configuration resistors and capacitors to BOM.
