@@ -1698,8 +1698,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 1600 4300 50  0001 C CNN
 	1    1500 4500
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1900 4200
-NoConn ~ 3850 4200
 $Comp
 L power:+3.3V #PWR0137
 U 1 1 5FF0960B
@@ -2754,4 +2752,34 @@ Wire Wire Line
 Connection ~ 9000 2400
 Wire Wire Line
 	8900 1900 9400 1900
+Wire Wire Line
+	3850 4200 3950 4200
+Wire Wire Line
+	1900 4200 2000 4200
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5EFF55C4
+P 2000 4100
+F 0 "#PWR?" H 2000 3950 50  0001 C CNN
+F 1 "+3.3V" H 2015 4273 50  0000 C CNN
+F 2 "" H 2000 4100 50  0001 C CNN
+F 3 "" H 2000 4100 50  0001 C CNN
+	1    2000 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5EFF6239
+P 3950 4100
+F 0 "#PWR?" H 3950 3950 50  0001 C CNN
+F 1 "+5V" H 3965 4273 50  0000 C CNN
+F 2 "" H 3950 4100 50  0001 C CNN
+F 3 "" H 3950 4100 50  0001 C CNN
+	1    3950 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 4100 3950 4200
+Wire Wire Line
+	2000 4200 2000 4100
 $EndSCHEMATC
