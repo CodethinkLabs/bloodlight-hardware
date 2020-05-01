@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS73433DDCR
+D 250mA, Low Quiescent Current, Ultra-Low Noise, High PSRR Low Drop 3.3V Regulator, SOT-23-5
+K Fixed LDO Voltage Regulator Linear 250mA
+F https://www.ti.com/lit/ds/symlink/tps734.pdf
+$ENDCMP
+#
+#End Doc Library

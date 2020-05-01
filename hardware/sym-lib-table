@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name lm4132)(type Legacy)(uri ${KIPRJMOD}/symbols/lm4132.lib)(options "")(descr ""))
   (lib (name xc6206p332mr)(type Legacy)(uri ${KIPRJMOD}/symbols/xc6206p332mr.lib)(options "")(descr ""))
+  (lib (name tps73433ddcr)(type Legacy)(uri ${KIPRJMOD}/symbols/tps73433ddcr.lib)(options "")(descr ""))
 )
