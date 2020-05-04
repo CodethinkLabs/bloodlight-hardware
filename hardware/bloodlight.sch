@@ -2772,10 +2772,10 @@ $EndComp
 Wire Wire Line
 	6500 1100 7000 1100
 $Comp
-L power:GNDA #PWR?
+L power:GNDA #PWR0122
 U 1 1 5EDEE960
 P 7000 1100
-F 0 "#PWR?" H 7000 850 50  0001 C CNN
+F 0 "#PWR0122" H 7000 850 50  0001 C CNN
 F 1 "GNDA" V 7005 972 50  0000 R CNN
 F 2 "" H 7000 1100 50  0001 C CNN
 F 3 "" H 7000 1100 50  0001 C CNN
@@ -2788,10 +2788,10 @@ Wire Wire Line
 	6200 1100 6200 1300
 Connection ~ 6200 1100
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0156
 U 1 1 5EEA08D4
 P 6200 700
-F 0 "#PWR?" H 6200 550 50  0001 C CNN
+F 0 "#PWR0156" H 6200 550 50  0001 C CNN
 F 1 "+3.3V" V 6215 828 50  0000 L CNN
 F 2 "" H 6200 700 50  0001 C CNN
 F 3 "" H 6200 700 50  0001 C CNN
@@ -2800,4 +2800,82 @@ F 3 "" H 6200 700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6200 700  6100 700 
+$Comp
+L Device:C_Small C28
+U 1 1 5EFD72BF
+P 2900 700
+F 0 "C28" V 3000 750 50  0000 L CNN
+F 1 "22uF/16V" V 3000 300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2900 700 50  0001 C CNN
+F 3 "~" H 2900 700 50  0001 C CNN
+	1    2900 700 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EFD72C9
+P 3100 700
+F 0 "#PWR?" H 3100 450 50  0001 C CNN
+F 1 "GND" V 3105 572 50  0000 R CNN
+F 2 "" H 3100 700 50  0001 C CNN
+F 3 "" H 3100 700 50  0001 C CNN
+	1    3100 700 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3100 700  3000 700 
+Wire Wire Line
+	2800 700  2700 700 
+Wire Wire Line
+	2700 700  2700 900 
+Connection ~ 2700 900 
+$Comp
+L Device:C_Small C27
+U 1 1 5F005A1B
+P 1400 700
+F 0 "C27" V 1500 750 50  0000 L CNN
+F 1 "22uF/16V" V 1500 300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1400 700 50  0001 C CNN
+F 3 "~" H 1400 700 50  0001 C CNN
+	1    1400 700 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F005A25
+P 1600 700
+F 0 "#PWR?" H 1600 450 50  0001 C CNN
+F 1 "GND" V 1605 572 50  0000 R CNN
+F 2 "" H 1600 700 50  0001 C CNN
+F 3 "" H 1600 700 50  0001 C CNN
+	1    1600 700 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1600 700  1500 700 
+Wire Wire Line
+	1300 700  1200 700 
+Wire Wire Line
+	1200 700  1200 900 
+Connection ~ 1200 900 
+Wire Notes Line
+	3450 800  2650 800 
+Wire Notes Line
+	2650 800  2650 550 
+Wire Notes Line
+	2650 550  3450 550 
+Wire Notes Line
+	3450 550  3450 800 
+Wire Notes Line
+	1150 800  1150 550 
+Wire Notes Line
+	1150 550  1950 550 
+Wire Notes Line
+	1950 550  1950 800 
+Wire Notes Line
+	1950 800  1150 800 
+Text Notes 2650 800  2    50   ~ 0
+Optional
+Text Notes 1150 800  2    50   ~ 0
+Optional
 $EndSCHEMATC
