@@ -825,7 +825,7 @@ U 1 1 5EEC5A5F
 P 1800 2000
 F 0 "LD3" H 1950 2050 50  0000 C CNN
 F 1 "20mA/1.2V" H 1800 1900 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1800 2000 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Castellated" V 1800 2000 50  0001 C CNN
 F 3 "http://www.everlight.com/file/ProductFile/201407052112560322.pdf" V 1800 2000 50  0001 C CNN
 	1    1800 2000
 	-1   0    0    1   
@@ -853,7 +853,7 @@ U 1 1 5EEC5A74
 P 1800 2300
 F 0 "LD4" H 1950 2350 50  0000 C CNN
 F 1 "50mA/1.3V" H 1800 2200 50  0000 C CNN
-F 2 "LED_SMD:LED_PLCC-2" V 1800 2300 50  0001 C CNN
+F 2 "rounded:LED_PLCC-2" V 1800 2300 50  0001 C CNN
 F 3 "https://marktechopto.com/pdf/products/datasheet/MTSM4110MT2-BK.pdf" V 1800 2300 50  0001 C CNN
 	1    1800 2300
 	-1   0    0    1   
@@ -881,7 +881,7 @@ U 1 1 5EFFCD4E
 P 1800 2600
 F 0 "LD5" H 1950 2650 50  0000 C CNN
 F 1 "20mA/1V" H 1800 2484 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1800 2600 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Castellated" V 1800 2600 50  0001 C CNN
 F 3 "https://www.marktechopto.com/pdf/products/datasheet/MTSM0012-199-IR.pdf" V 1800 2600 50  0001 C CNN
 	1    1800 2600
 	-1   0    0    1   
@@ -909,7 +909,7 @@ U 1 1 5EFFCD6F
 P 1800 2900
 F 0 "LD6" H 1950 2950 50  0000 C CNN
 F 1 "20mA/1V" H 1800 2784 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1800 2900 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Castellated" V 1800 2900 50  0001 C CNN
 F 3 "https://www.marktechopto.com/pdf/products/datasheet/MTSM5014-199-IR.pdf" V 1800 2900 50  0001 C CNN
 	1    1800 2900
 	-1   0    0    1   
@@ -937,7 +937,7 @@ U 1 1 5EFFCD90
 P 1800 3200
 F 0 "LD7" H 1950 3250 50  0000 C CNN
 F 1 "20mA/1V" H 1800 3100 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1800 3200 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Castellated" V 1800 3200 50  0001 C CNN
 F 3 "https://www.marktechopto.com/pdf/products/datasheet/MTSM5015-199-IR.pdf" V 1800 3200 50  0001 C CNN
 	1    1800 3200
 	-1   0    0    1   
@@ -965,7 +965,7 @@ U 1 1 5EFFCDB1
 P 1800 3500
 F 0 "LD8" H 1950 3550 50  0000 C CNN
 F 1 "20mA/1V" H 1800 3400 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1800 3500 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Castellated" V 1800 3500 50  0001 C CNN
 F 3 "https://www.marktechopto.com/pdf/products/datasheet/MTSM5016-199-IR.pdf" V 1800 3500 50  0001 C CNN
 	1    1800 3500
 	-1   0    0    1   
@@ -2373,7 +2373,7 @@ U 1 1 5F0AAE6B
 P 3300 1400
 F 0 "LD9" H 3450 1450 50  0000 C CNN
 F 1 "20mA/1.7V" H 3300 1284 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 3300 1400 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Castellated" V 3300 1400 50  0001 C CNN
 F 3 "https://www.marktechopto.com/pdf/products/datasheet/MTSM0074-843-IR.pdf" V 3300 1400 50  0001 C CNN
 	1    3300 1400
 	-1   0    0    1   
@@ -2384,7 +2384,7 @@ U 1 1 5F0AAE8C
 P 3300 1700
 F 0 "LD10" H 3450 1750 50  0000 C CNN
 F 1 "20mA/1.8V" H 3300 1584 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3300 1700 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Castellated" V 3300 1700 50  0001 C CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493888/LH%20R974.pdf" V 3300 1700 50  0001 C CNN
 	1    3300 1700
 	-1   0    0    1   
@@ -2428,7 +2428,7 @@ U 1 1 5F0AAF10
 P 3300 2900
 F 0 "LD14" H 3450 2950 50  0000 C CNN
 F 1 "20mA/2.1V" H 3300 2784 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 3300 2900 50  0001 C CNN
+F 2 "footprints:LED_Broadcom_HSMx-C110" V 3300 2900 50  0001 C CNN
 F 3 "https://docs.broadcom.com/doc/AV02-0976EN" V 3300 2900 50  0001 C CNN
 	1    3300 2900
 	-1   0    0    1   
@@ -2439,7 +2439,7 @@ U 1 1 5F0AAF31
 P 3300 3200
 F 0 "LD15" H 3450 3250 50  0000 C CNN
 F 1 "20mA/3.2V" H 3300 3100 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3300 3200 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Castellated" V 3300 3200 50  0001 C CNN
 F 3 "http://www.inolux-corp.com/datasheet/SMDLED/Mono%20Color%20Top%20View/IN-S85AT%20Series_V1.1.pdf" V 3300 3200 50  0001 C CNN
 	1    3300 3200
 	-1   0    0    1   
@@ -2450,7 +2450,7 @@ U 1 1 5F0AAF52
 P 3300 3500
 F 0 "LD16" H 3450 3550 50  0000 C CNN
 F 1 "20mA/3.3V" H 3300 3400 50  0000 C CNN
-F 2 "LED_SMD:LED_PLCC-2" V 3300 3500 50  0001 C CNN
+F 2 "footprints:LED_BrightLED_HB332Y" V 3300 3500 50  0001 C CNN
 F 3 "http://americanbrightled.com/pdffiles/plcc/BL-HB332Y.pdf" V 3300 3500 50  0001 C CNN
 	1    3300 3500
 	-1   0    0    1   
