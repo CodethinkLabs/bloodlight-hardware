@@ -185,48 +185,48 @@ F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 9700 5850 50  00
 	1    9500 5500
 	1    0    0    -1  
 $EndComp
-Text Label 8900 5400 2    50   ~ 0
+Text Label 9000 5400 2    50   ~ 0
 USB_D+
 Wire Wire Line
-	8900 5400 9000 5400
-Text Label 10100 5400 0    50   ~ 0
+	9000 5400 9100 5400
+Text Label 10000 5400 0    50   ~ 0
 USB_D-
 Wire Wire Line
-	10100 5400 10000 5400
-Text Label 8900 5600 2    50   ~ 0
+	10000 5400 9900 5400
+Text Label 9000 5600 2    50   ~ 0
 UC_USB_D+
-Text Label 10100 5600 0    50   ~ 0
+Text Label 10000 5600 0    50   ~ 0
 UC_USB_D-
 Wire Wire Line
-	10100 5600 10000 5600
+	10000 5600 9900 5600
 Wire Wire Line
-	9000 5600 8900 5600
+	9100 5600 9000 5600
 $Comp
 L power:GND #PWR0107
 U 1 1 5EA62FBA
-P 9500 6100
-F 0 "#PWR0107" H 9500 5850 50  0001 C CNN
-F 1 "GND" H 9505 5927 50  0000 C CNN
-F 2 "" H 9500 6100 50  0001 C CNN
-F 3 "" H 9500 6100 50  0001 C CNN
-	1    9500 6100
+P 9500 6000
+F 0 "#PWR0107" H 9500 5750 50  0001 C CNN
+F 1 "GND" H 9505 5827 50  0000 C CNN
+F 2 "" H 9500 6000 50  0001 C CNN
+F 3 "" H 9500 6000 50  0001 C CNN
+	1    9500 6000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9500 6100 9500 6000
+	9500 6000 9500 5900
 $Comp
 L power:VBUS #PWR0108
 U 1 1 5EA6A462
-P 9500 4900
-F 0 "#PWR0108" H 9500 4750 50  0001 C CNN
-F 1 "VBUS" H 9515 5073 50  0000 C CNN
-F 2 "" H 9500 4900 50  0001 C CNN
-F 3 "" H 9500 4900 50  0001 C CNN
-	1    9500 4900
+P 9500 5000
+F 0 "#PWR0108" H 9500 4850 50  0001 C CNN
+F 1 "VBUS" H 9515 5173 50  0000 C CNN
+F 2 "" H 9500 5000 50  0001 C CNN
+F 3 "" H 9500 5000 50  0001 C CNN
+	1    9500 5000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9500 4900 9500 5000
+	9500 5000 9500 5100
 $Comp
 L Device:C_Small C9
 U 1 1 5EA91F32
@@ -673,7 +673,7 @@ U 1 1 5EEA8BB3
 P 2200 6700
 F 0 "U2" H 2200 6850 50  0000 L CNN
 F 1 "AD8605" H 2150 6450 50  0000 L CNN
-F 2 "rounded:TSOT-23-5" H 2200 6700 50  0001 C CNN
+F 2 "rounded:SOT-23-5" H 2200 6700 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8605_8606_8608.pdf" H 2200 6900 50  0001 C CNN
 	1    2200 6700
 	1    0    0    -1  
@@ -1312,7 +1312,7 @@ U 1 1 5EEA8B58
 P 6200 6800
 F 0 "U4" H 6200 6950 50  0000 L CNN
 F 1 "AD8605" H 6150 6550 50  0000 L CNN
-F 2 "rounded:TSOT-23-5" H 6200 6800 50  0001 C CNN
+F 2 "rounded:SOT-23-5" H 6200 6800 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8605_8606_8608.pdf" H 6200 7000 50  0001 C CNN
 	1    6200 6800
 	1    0    0    -1  
@@ -1372,7 +1372,7 @@ U 1 1 5ECBE07F
 P 4200 6800
 F 0 "U3" H 4200 6950 50  0000 L CNN
 F 1 "AD8605" H 4150 6550 50  0000 L CNN
-F 2 "rounded:TSOT-23-5" H 4200 6800 50  0001 C CNN
+F 2 "rounded:SOT-23-5" H 4200 6800 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8605_8606_8608.pdf" H 4200 7000 50  0001 C CNN
 	1    4200 6800
 	1    0    0    -1  
@@ -1481,7 +1481,7 @@ U 1 1 5EE23633
 P 6200 5300
 F 0 "U1" H 6200 5450 50  0000 L CNN
 F 1 "AD8605" H 6150 5050 50  0000 L CNN
-F 2 "rounded:TSOT-23-5" H 6200 5300 50  0001 C CNN
+F 2 "rounded:SOT-23-5" H 6200 5300 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8605_8606_8608.pdf" H 6200 5500 50  0001 C CNN
 	1    6200 5300
 	1    0    0    -1  
