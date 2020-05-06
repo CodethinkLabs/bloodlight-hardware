@@ -2,6 +2,5 @@
 *-bak
 *.bck
 *-cache*
-plots/
 *.dsn
 output.*
