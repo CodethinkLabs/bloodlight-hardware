@@ -17,7 +17,7 @@ C;X15;Y1;K"Assembled"
 C;X16;Y1;K"Extended Part"
 C;X17;Y1;K"URL"
 C;X1;Y3;K"Low Noise CMOS OpAmp"
-C;X2;Y3;K"U1-U4"
+C;X2;Y3;K"U1-4"
 C;X4;Y3;K"Analog Devices"
 C;X5;Y3;K"AD8605ARTZ-REEL7"
 C;X6;Y3;K"SOT-23-5"
@@ -430,7 +430,7 @@ C;X11;Y31;K0.345
 C;X12;Y31;K0.345;EK31*H31
 C;X13;Y31;K0.345;EK31*G31
 C;X15;Y31;K0
-C;X17;Y31;K"https://www.digikey.co.uk/product-detail/en/american-bright-optoelectronics-corporation/BL-HB332Y/BL-HB332YCT-ND/9678305"
+C;X17;Y31;K"  "
 C;X1;Y32;K"Schottky Diode, 400mV, 20mA"
 C;X2;Y32;K"D1"
 C;X4;Y32;K"MDD"
@@ -582,7 +582,7 @@ C;X15;Y40;K1
 C;X16;Y40;K0
 C;X17;Y40;K"https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B103KB5NNNC_10nF-103-10-50V_C15195.html"
 C;X1;Y41;K"Capacitor, 100nF, 16V"
-C;X2;Y41;K"C9-C14, C21-C24, C29-C33"
+C;X2;Y41;K"C9-14, C21-24, C29-33"
 C;X3;Y41;K"Bypass"
 C;X4;Y41;K"Samsung Electro-Mechanics"
 C;X5;Y41;K"CL05B104KO5NNNC"
@@ -599,7 +599,7 @@ C;X15;Y41;K1
 C;X16;Y41;K0
 C;X17;Y41;K"https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html"
 C;X1;Y42;K"Capacitor, 1uF, 50V"
-C;X2;Y42;K"C15-C17, C19, C26"
+C;X2;Y42;K"C15-17, C19, C26"
 C;X3;Y42;K"Bulk"
 C;X4;Y42;K"Samsung Electro-Mechanics"
 C;X5;Y42;K"CL21B105KBFNNNE"
