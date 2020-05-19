@@ -337,7 +337,7 @@ C;X1;Y25;K"LED, 660nm, 20mA, 1.8V"
 C;X2;Y25;K"LD10"
 C;X4;Y25;K"OSRAM Opto Semiconductors Inc."
 C;X5;Y25;K"LH R974-LP-1"
-C;X6;Y25;K"0805D"
+C;X6;Y25;K"0805D!"
 C;X7;Y25;K1
 C;X8;Y25;K1
 C;X9;Y25;K2
@@ -347,6 +347,7 @@ C;X12;Y25;K0.191;EK25*H25
 C;X13;Y25;K0.191;EK25*G25
 C;X15;Y25;K0
 C;X17;Y25;K"https://www.digikey.co.uk/product-detail/en/osram-opto-semiconductors-inc/LH-R974-LP-1/475-1415-1-ND/1802604"
+C;X18;Y25;K"Assembly Warning: LED has ANODE mark!"
 C;X1;Y26;K"LED, 638nm, 20mA, 2.1V"
 C;X2;Y26;K"LD11"
 C;X4;Y26;K"Stanley Electric Co"

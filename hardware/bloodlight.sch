@@ -3007,4 +3007,14 @@ F 3 "~" H 10800 3500 50  0001 C CNN
 	1    10600 3500
 	0    1    1    0   
 $EndComp
+Wire Notes Line
+	3450 1550 3450 1850
+Wire Notes Line
+	3450 1850 3150 1850
+Wire Notes Line
+	3150 1850 3150 1550
+Wire Notes Line
+	3150 1550 3450 1550
+Text Notes 3450 1850 0    50   ~ 0
+Assembly Warning:\nLED has ANODE mark!
 $EndSCHEMATC
