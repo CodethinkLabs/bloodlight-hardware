@@ -61,6 +61,14 @@ Set the Format to CSV.
 Note that we only care about the position file for the top of the board
 as in this case we expect to hand assemble the bottom.
 
+To apply the rotations to the placement file use the following command:
+    patch plots/output.bloodlight-top-pos.csv placement.patch
+
+Note that for any future changes to the design the rotation patch will
+need to be updated accordingly, as desribed in the next section.
+
+## 3.1. Manually Fix Pick & Place File
+
 Open the resulting file(s) using either a spreadsheet program or a text editor.
 
 JLCPCB expects the fields to be titled differently to KiCAD, so we have to
@@ -74,11 +82,9 @@ modify the titles as follows:
 This position file needs fixing because kicad and JLCPCB's tooling
 disagree on the default rotation for some part.
 
-To apply the rotations to the placement file use the following command:
-    patch plots/output.bloodlight-top-pos.csv placement.patch
-
-Note that for any future changes to the design the rotation patch will
-need to be updated accordingly.
+To ensure the rotations are correct upload your design JLCPCB.com and view their
+rendered output to check the part rotations are correct and manually fixup where
+they are incorrect.
 
 ## 4. Generate the BOM
 
