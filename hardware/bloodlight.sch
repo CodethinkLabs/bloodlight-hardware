@@ -1873,39 +1873,10 @@ Wire Wire Line
 Wire Wire Line
 	1200 900  1200 1100
 Connection ~ 1200 1100
-$Comp
-L Device:R_Small R22
-U 1 1 607B2D28
-P 4650 2000
-F 0 "R22" H 4700 1950 50  0000 L CNN
-F 1 "10k/5%" H 4700 2050 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4650 2000 50  0001 C CNN
-F 3 "~" H 4650 2000 50  0001 C CNN
-	1    4650 2000
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4650 1900 4650 1800
-Wire Wire Line
-	4650 1800 5300 1800
-$Comp
-L power:GND #PWR0143
-U 1 1 607F1532
-P 4650 2200
-F 0 "#PWR0143" H 4650 1950 50  0001 C CNN
-F 1 "GND" H 4655 2027 50  0000 C CNN
-F 2 "" H 4650 2200 50  0001 C CNN
-F 3 "" H 4650 2200 50  0001 C CNN
-	1    4650 2200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4650 2200 4650 2100
-Text Label 4550 1800 2    50   ~ 0
+Text Label 5200 1800 2    50   ~ 0
 BOOT0
 Wire Wire Line
-	4550 1800 4650 1800
-Connection ~ 4650 1800
+	5200 1800 5300 1800
 $Comp
 L Device:R_Small R21
 U 1 1 608EBD32

@@ -7,7 +7,6 @@
 # Revision 2
 
 - Switch to STM32G474 with almost identical pinout.
-- Remove BOOT0 pull-up (R22) as it's not needed and is a GPIO on STM32G4.
 - Remove 3.3V voltage divider (R23, R24) as STM32G4 has internal alternative.
 - Remove +5V and BOOT0 from Debug header as they're not needed.
 - Remove USB pull-up (R21) as STM32G4 hardware handles this.
