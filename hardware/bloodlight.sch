@@ -648,17 +648,6 @@ F 3 "~" H 6400 1300 50  0001 C CNN
 	1    6400 1300
 	0    -1   1    0   
 $EndComp
-$Comp
-L MCU_ST_STM32F3:STM32F303CCTx U10
-U 1 1 5E9EFC39
-P 6000 2900
-F 0 "U10" H 5450 1450 50  0000 C CNN
-F 1 "STM32F303CCTx" H 6500 1450 50  0000 C CNN
-F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 5400 1500 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00058181.pdf" H 6000 2900 50  0001 C CNN
-	1    6000 2900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6200 1400 6200 1300
 Wire Wire Line
@@ -1966,63 +1955,6 @@ Wire Wire Line
 Wire Wire Line
 	6600 3100 6700 3100
 $Comp
-L Device:R_Small R23
-U 1 1 60E7914D
-P 10400 1150
-F 0 "R23" H 10350 1200 50  0000 R CNN
-F 1 "10k/1%" H 10350 1100 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 10400 1150 50  0001 C CNN
-F 3 "~" H 10400 1150 50  0001 C CNN
-	1    10400 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R24
-U 1 1 60E86D4E
-P 10400 1550
-F 0 "R24" H 10350 1600 50  0000 R CNN
-F 1 "10k/1%" H 10350 1500 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 10400 1550 50  0001 C CNN
-F 3 "~" H 10400 1550 50  0001 C CNN
-	1    10400 1550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10400 1250 10400 1350
-$Comp
-L power:+3.3V #PWR0148
-U 1 1 60EA628B
-P 10400 950
-F 0 "#PWR0148" H 10400 800 50  0001 C CNN
-F 1 "+3.3V" H 10415 1123 50  0000 C CNN
-F 2 "" H 10400 950 50  0001 C CNN
-F 3 "" H 10400 950 50  0001 C CNN
-	1    10400 950 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0149
-U 1 1 60EA7E4D
-P 10400 1750
-F 0 "#PWR0149" H 10400 1500 50  0001 C CNN
-F 1 "GND" H 10405 1577 50  0000 C CNN
-F 2 "" H 10400 1750 50  0001 C CNN
-F 3 "" H 10400 1750 50  0001 C CNN
-	1    10400 1750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10400 1750 10400 1650
-Wire Wire Line
-	10400 950  10400 1050
-Text Label 10300 1350 2    50   ~ 0
-VOLT_3V3
-Wire Wire Line
-	10300 1350 10400 1350
-Connection ~ 10400 1350
-Wire Wire Line
-	10400 1350 10400 1450
-$Comp
 L Device:R_Small R25
 U 1 1 60F698C2
 P 10700 1150
@@ -2184,10 +2116,6 @@ Text Label 6700 2800 0    50   ~ 0
 VOLT_5V0
 Wire Wire Line
 	6700 2800 6600 2800
-Text Label 6700 2900 0    50   ~ 0
-VOLT_3V3
-Wire Wire Line
-	6700 2900 6600 2900
 Text Label 5200 2500 2    50   ~ 0
 UC_LED11
 Wire Wire Line
@@ -2931,14 +2859,26 @@ Wire Wire Line
 Wire Wire Line
 	9450 1250 9350 1250
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0143
 U 1 1 5F03B7E5
 P 5200 1800
-F 0 "#PWR?" H 5200 1550 50  0001 C CNN
+F 0 "#PWR0143" H 5200 1550 50  0001 C CNN
 F 1 "GND" V 5205 1672 50  0000 R CNN
 F 2 "" H 5200 1800 50  0001 C CNN
 F 3 "" H 5200 1800 50  0001 C CNN
 	1    5200 1800
 	0    1    1    0   
 $EndComp
+$Comp
+L MCU_ST_STM32F3:STM32F303CCTx U10
+U 1 1 5E9EFC39
+P 6000 2900
+F 0 "U10" H 5450 1450 50  0000 C CNN
+F 1 "STM32F303CCTx" H 6500 1450 50  0000 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 5400 1500 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00058181.pdf" H 6000 2900 50  0001 C CNN
+	1    6000 2900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6600 2900
 $EndSCHEMATC
