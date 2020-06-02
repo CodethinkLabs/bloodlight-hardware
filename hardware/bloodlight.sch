@@ -1873,8 +1873,6 @@ Wire Wire Line
 Wire Wire Line
 	1200 900  1200 1100
 Connection ~ 1200 1100
-Text Label 5200 1800 2    50   ~ 0
-BOOT0
 Wire Wire Line
 	5200 1800 5300 1800
 $Comp
@@ -1901,26 +1899,15 @@ Wire Wire Line
 	8700 4800 8700 4700
 NoConn ~ 8600 4700
 $Comp
-L Connector_Generic:Conn_02x04_Odd_Even J2
+L Connector_Generic:Conn_02x03_Odd_Even J2
 U 1 1 60A3DAE3
 P 9050 1150
 F 0 "J2" H 9100 1467 50  0000 C CNN
 F 1 "Debug" H 9100 1376 50  0000 C CNN
-F 2 "rounded:PinHeader_2x04_P2.54mm_Vertical_SMD" H 9050 1150 50  0001 C CNN
+F 2 "rounded:PinHeader_2x03_P2.54mm_Vertical_SMD" H 9050 1150 50  0001 C CNN
 F 3 "~" H 9050 1150 50  0001 C CNN
 	1    9050 1150
 	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0145
-U 1 1 60AA062E
-P 9450 1050
-F 0 "#PWR0145" H 9450 900 50  0001 C CNN
-F 1 "+5V" V 9465 1178 50  0000 L CNN
-F 2 "" H 9450 1050 50  0001 C CNN
-F 3 "" H 9450 1050 50  0001 C CNN
-	1    9450 1050
-	0    1    1    0   
 $EndComp
 $Comp
 L power:+3.3V #PWR0146
@@ -1936,17 +1923,15 @@ $EndComp
 $Comp
 L power:GND #PWR0147
 U 1 1 60AA18E8
-P 9450 1250
-F 0 "#PWR0147" H 9450 1000 50  0001 C CNN
-F 1 "GND" V 9455 1122 50  0000 R CNN
-F 2 "" H 9450 1250 50  0001 C CNN
-F 3 "" H 9450 1250 50  0001 C CNN
-	1    9450 1250
+P 9450 1050
+F 0 "#PWR0147" H 9450 800 50  0001 C CNN
+F 1 "GND" V 9455 922 50  0000 R CNN
+F 2 "" H 9450 1050 50  0001 C CNN
+F 3 "" H 9450 1050 50  0001 C CNN
+	1    9450 1050
 	0    -1   -1   0   
 $EndComp
-Text Label 9450 1350 0    50   ~ 0
-BOOT0
-Text Label 8750 1350 2    50   ~ 0
+Text Label 9450 1250 0    50   ~ 0
 NRST
 Text Label 8750 1250 2    50   ~ 0
 SWDIO
@@ -1961,15 +1946,9 @@ Wire Wire Line
 Wire Wire Line
 	8750 1050 8850 1050
 Wire Wire Line
-	8750 1350 8850 1350
-Wire Wire Line
-	9350 1050 9450 1050
-Wire Wire Line
 	9350 1150 9450 1150
 Wire Wire Line
-	9350 1250 9450 1250
-Wire Wire Line
-	9350 1350 9450 1350
+	9350 1050 9450 1050
 Text Label 6700 3400 0    50   ~ 0
 PDV3
 Text Label 6700 3100 0    50   ~ 0
@@ -2949,4 +2928,17 @@ Text Label 5200 1600 2    50   ~ 0
 NRST
 Wire Wire Line
 	5200 1600 5300 1600
+Wire Wire Line
+	9450 1250 9350 1250
+$Comp
+L power:GND #PWR?
+U 1 1 5F03B7E5
+P 5200 1800
+F 0 "#PWR?" H 5200 1550 50  0001 C CNN
+F 1 "GND" V 5205 1672 50  0000 R CNN
+F 2 "" H 5200 1800 50  0001 C CNN
+F 3 "" H 5200 1800 50  0001 C CNN
+	1    5200 1800
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
