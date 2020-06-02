@@ -73,8 +73,6 @@ F 3 "" H 8700 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 9000 4500
-Text Label 4550 1600 2    50   ~ 0
-NRST
 $Comp
 L Device:Crystal_GND24 X1
 U 1 1 5EA06AD1
@@ -2674,47 +2672,6 @@ Wire Wire Line
 	3950 4100 3950 4200
 Wire Wire Line
 	2000 4200 2000 4100
-Wire Wire Line
-	4550 1600 4650 1600
-$Comp
-L power:+3.3V #PWR0144
-U 1 1 5F1089BA
-P 4650 1200
-F 0 "#PWR0144" H 4650 1050 50  0001 C CNN
-F 1 "+3.3V" H 4665 1373 50  0000 C CNN
-F 2 "" H 4650 1200 50  0001 C CNN
-F 3 "" H 4650 1200 50  0001 C CNN
-	1    4650 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R28
-U 1 1 5F109061
-P 4650 1400
-F 0 "R28" H 4700 1350 50  0000 L CNN
-F 1 "10k/5%" H 4700 1450 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4650 1400 50  0001 C CNN
-F 3 "~" H 4650 1400 50  0001 C CNN
-	1    4650 1400
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4650 1600 4650 1500
-Connection ~ 4650 1600
-Wire Wire Line
-	4650 1600 5300 1600
-Wire Wire Line
-	4650 1200 4650 1300
-Wire Notes Line
-	4750 1500 4250 1500
-Wire Notes Line
-	4250 1500 4250 1300
-Wire Notes Line
-	4250 1300 4750 1300
-Wire Notes Line
-	4750 1300 4750 1500
-Text Notes 4250 1300 0    50   ~ 0
-Optional
 Text Label 7300 3500 0    50   ~ 0
 UC_USB_PULL
 Text Label 5200 3100 2    50   ~ 0
@@ -3017,4 +2974,8 @@ Wire Notes Line
 	3150 1550 3450 1550
 Text Notes 3450 1850 0    50   ~ 0
 Assembly Warning:\nLED has ANODE mark!
+Text Label 5200 1600 2    50   ~ 0
+NRST
+Wire Wire Line
+	5200 1600 5300 1600
 $EndSCHEMATC
