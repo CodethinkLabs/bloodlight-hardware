@@ -5,70 +5,56 @@ LED:    LED1..LED16
 PD:     PDV1..PDV4
 EXT:    SPI2_NSS, SPI2_SCK, SPI2_MISO, SPI2_MOSI
 DEBUG:  SWCLK, SWDIO, SWO, NRST
-USB:    USB_DP, USB_DM, USB_PULL
+USB:    USB_DP, USB_DM
 
 # PINS
 
  1: VBAT
- 2: PC13: LED9
- 3: PC14: LED10
+ 2: PC13: LED2
+ 3: PC14: LED1
  4: PC15: LED11
  5: PF0 : OSC_IN
  6: PF1 : OSC_OUT
- 7: NRST
- 8: VSSA
- 9: VDDA
-10: PA0 : Not Connected
-11: PA1 : VOLT_5V0 (ADC1_IN2, OPAMP1_VINP, OPAMP3_VINP)
-12: PA2 : Not Connected
-13: PA3 : PDV2 (ADC1_IN4, OPAMP1_VINP)
-14: PA4 : PDV1 (ADC2_IN1, OPAMP4_VINP)
-15: PA5 : PDV4 (ADC2_IN2, OPAMP1_VINP, OPAMP3_VINP)
-16: PA6 : Not Connected
-17: PA7 : PDV3 (ADC2_IN4, OPAMP1_VINP, OPAMP2_VINP)
-18: PB0 : Not Connected
-19: PB1 : LED1
-20: PB2 : LED2
-21: PB10: LED3
-22: PB11: LED4
+ 7: PG10: NRST
+ 8: PA0 : LED12 (ADC12_IN1)
+ 9: PA1 : LED15 (ADC12_IN2, OPAMP6_VINM)
+10: PA2 : LED16 (ADC1_IN3)
+11: PA3 : VOLT_5V0 (ADC1_IN4, OPAMP1_VINM, OPAMP5_VINM)
+12: PA4 : LED5 (ADC2_IN17)
+13: PA5 : PDV4 (ADC2_IN13, OPAMP2_VINM)
+14: PA6 : Not Connected (Isolation)
+15: PA7 : LED6
+16: PB0 : Not Connected (Isolation)
+17: PB1 : PDV3 (ADC3_IN1, ADC1_IN12, OPAMP6_VINM)
+18: PB2 : PDV1 (ADC2_IN12, OPAMP3_VINM)
+19: VSSA
+20: VREF+
+21: VDDA
+22: PB10: PDV2 (OPAMP3_VINM, OPAMP4_VINM)
 23: VSS
 24: VDD
-25: PB12: SPI2_NSS
-26: PB13: SPI2_SCK
-27: PB14: SPI2_MISO
-28: PB15: SPI2_MOSI
-29: PA8 : LED5
-30: PA9 : LED6
-31: PA10: LED7
-32: PA11: USB_DM
-33: PA12: USB_DP
-34: PA13: SWDIO
+25: PB11: LED3
+26: PB12: SPI2_NSS
+27: PB13: SPI2_SCK
+28: PB14: SPI2_MISO
+29: PB15: SPI2_MOSI (OPAMP5_VINM)
+30: PA8 : LED8
+31: PA9 : LED7
+32: PA10: LED4
+33: PA11: USB_DM
+34: PA12: USB_DP
 35: VSS
 36: VDD
-37: PA14: SWCLK
-38: PA15: LED8
-39: PB3 : SWO
-40: PB4 : USB_PULL
-41: PB5 : LED16
-42: PB6 : LED15
-43: PB7 : LED14
-44: BOOT0
-45: PB8 : LED13
-46: PB9 : LED12
+37: PA13: SWDIO
+38: PA14: SWCLK
+39: PA15: LED13
+40: PB3 : SWO
+41: PB4 : LED14
+42: PB5 : LED9
+43: PB6 : LED10
+44: PB7 : Unallocated
+45: PB8 : Unallocated (BOOT0)
+46: PB9 : Unallocated
 47: VSS
 48: VDD
-
-# OpAmp Limitations
-
-Due to the requirement for OPAMPs to be connected to their VOUT pins, there are
-some limitations on how the OPAMPs can be used.
-
-OPAMP1 and OPAMP2 can be used without limitation as their output pins are not
-connected.
-
-OPAMP3 is connected to LED1 directly, so while it may be possible to use it, it
-would cause LED1 to flash depending on the OPAMP output level.
-
-OPAMP4 is connected to SPI2_NSS, so it may be used so long as this pin is left
-unconnected.
 
