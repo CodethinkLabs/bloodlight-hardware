@@ -6,7 +6,6 @@
 
 # Revision 2
 
-- Add a status LED of sensible colour which isn't too bright.
 - Create black plastic (3D printed) enclosure/light shield
 	- Prototype with cheap printer but have final ones professionally done.
 	- Remove elastic straps and PCB shield from design.
