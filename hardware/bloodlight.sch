@@ -703,35 +703,20 @@ $EndComp
 $Comp
 L Device:LED_Small LD1
 U 1 1 5EE13114
-P 3600 2000
-F 0 "LD1" H 3750 2050 50  0000 C CNN
-F 1 "20mA/1.45V" H 3600 1884 50  0000 C CNN
-F 2 "footprints:LED_1206_3015Metric_Castellated" V 3600 2000 50  0001 C CNN
-F 3 "http://www.stanley-components.com/php/downloaddatafile.php?rp=0,HDN1102W-TR_e.pdf" V 3600 2000 50  0001 C CNN
-	1    3600 2000
+P 3600 2300
+F 0 "LD1" H 3750 2350 50  0000 C CNN
+F 1 "20mA/1.45V" H 3600 2184 50  0000 C CNN
+F 2 "footprints:LED_1206_3015Metric_Castellated" V 3600 2300 50  0001 C CNN
+F 3 "http://www.stanley-components.com/php/downloaddatafile.php?rp=0,HDN1102W-TR_e.pdf" V 3600 2300 50  0001 C CNN
+	1    3600 2300
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R_Small R5
 U 1 1 5EE1517D
-P 3200 2000
-F 0 "R5" V 3250 1850 50  0000 C CNN
-F 1 "150/1%" V 3095 2000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3200 2000 50  0001 C CNN
-F 3 "~" H 3200 2000 50  0001 C CNN
-	1    3200 2000
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3300 2000 3500 2000
-Wire Wire Line
-	3800 2000 3700 2000
-$Comp
-L Device:R_Small R6
-U 1 1 5EEB3508
 P 3200 2300
-F 0 "R6" V 3250 2150 50  0000 C CNN
-F 1 "150/1%" V 3095 2300 50  0000 C CNN
+F 0 "R5" V 3250 2150 50  0000 C CNN
+F 1 "130/1%" V 3095 2300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3200 2300 50  0001 C CNN
 F 3 "~" H 3200 2300 50  0001 C CNN
 	1    3200 2300
@@ -742,7 +727,11 @@ Wire Wire Line
 Wire Wire Line
 	3800 2300 3700 2300
 Wire Wire Line
-	3100 2300 3000 2300
+	1500 2300 1700 2300
+Wire Wire Line
+	2000 2300 1900 2300
+Wire Wire Line
+	1300 2300 1200 2300
 $Comp
 L Device:LED_Small LD3
 U 1 1 5EEC5A5F
@@ -759,7 +748,7 @@ L Device:R_Small R7
 U 1 1 5EEC5A65
 P 1400 2000
 F 0 "R7" V 1450 1850 50  0000 C CNN
-F 1 "75/1%" V 1295 2000 50  0000 C CNN
+F 1 "68/1%" V 1295 2000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1400 2000 50  0001 C CNN
 F 3 "~" H 1400 2000 50  0001 C CNN
 	1    1400 2000
@@ -774,75 +763,36 @@ Wire Wire Line
 $Comp
 L Device:LED_Small LD4
 U 1 1 5EEC5A74
-P 1800 2300
-F 0 "LD4" H 1950 2350 50  0000 C CNN
-F 1 "50mA/1.3V" H 1800 2200 50  0000 C CNN
-F 2 "rounded:LED_PLCC-2" V 1800 2300 50  0001 C CNN
-F 3 "https://marktechopto.com/pdf/products/datasheet/MTSM4110MT2-BK.pdf" V 1800 2300 50  0001 C CNN
-	1    1800 2300
+P 3600 2000
+F 0 "LD4" H 3750 2050 50  0000 C CNN
+F 1 "50mA/1.3V" H 3600 1900 50  0000 C CNN
+F 2 "rounded:LED_PLCC-2" V 3600 2000 50  0001 C CNN
+F 3 "https://marktechopto.com/pdf/products/datasheet/MTSM4110MT2-BK.pdf" V 3600 2000 50  0001 C CNN
+	1    3600 2000
 	-1   0    0    1   
 $EndComp
-$Comp
-L Device:R_Small R8
-U 1 1 5EEC5A7A
-P 1400 2300
-F 0 "R8" V 1450 2150 50  0000 C CNN
-F 1 "27/1%" V 1295 2300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1400 2300 50  0001 C CNN
-F 3 "~" H 1400 2300 50  0001 C CNN
-	1    1400 2300
-	0    1    1    0   
-$EndComp
 Wire Wire Line
-	1500 2300 1700 2300
+	3300 2000 3500 2000
 Wire Wire Line
-	2000 2300 1900 2300
+	3800 2000 3700 2000
 Wire Wire Line
-	1300 2300 1200 2300
+	3100 2000 3000 2000
 $Comp
 L Device:LED_Small LD5
 U 1 1 5EFFCD4E
-P 3600 1400
-F 0 "LD5" H 3750 1450 50  0000 C CNN
-F 1 "20mA/1V" H 3600 1284 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Castellated" V 3600 1400 50  0001 C CNN
-F 3 "https://www.marktechopto.com/pdf/products/datasheet/MTSM0012-199-IR.pdf" V 3600 1400 50  0001 C CNN
-	1    3600 1400
+P 3600 1700
+F 0 "LD5" H 3750 1750 50  0000 C CNN
+F 1 "20mA/1V" H 3600 1584 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Castellated" V 3600 1700 50  0001 C CNN
+F 3 "https://www.marktechopto.com/pdf/products/datasheet/MTSM0012-199-IR.pdf" V 3600 1700 50  0001 C CNN
+	1    3600 1700
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R_Small R9
 U 1 1 5EFFCD58
-P 3200 1400
-F 0 "R9" V 3250 1250 50  0000 C CNN
-F 1 "165/1%" V 3095 1400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3200 1400 50  0001 C CNN
-F 3 "~" H 3200 1400 50  0001 C CNN
-	1    3200 1400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3300 1400 3500 1400
-Wire Wire Line
-	3800 1400 3700 1400
-Wire Wire Line
-	3100 1400 3000 1400
-$Comp
-L Device:LED_Small LD6
-U 1 1 5EFFCD6F
-P 3600 1700
-F 0 "LD6" H 3750 1750 50  0000 C CNN
-F 1 "20mA/1V" H 3600 1584 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Castellated" V 3600 1700 50  0001 C CNN
-F 3 "https://www.marktechopto.com/pdf/products/datasheet/MTSM5014-199-IR.pdf" V 3600 1700 50  0001 C CNN
-	1    3600 1700
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_Small R10
-U 1 1 5EFFCD79
 P 3200 1700
-F 0 "R10" V 3250 1550 50  0000 C CNN
+F 0 "R9" V 3250 1550 50  0000 C CNN
 F 1 "165/1%" V 3095 1700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3200 1700 50  0001 C CNN
 F 3 "~" H 3200 1700 50  0001 C CNN
@@ -855,6 +805,34 @@ Wire Wire Line
 	3800 1700 3700 1700
 Wire Wire Line
 	3100 1700 3000 1700
+$Comp
+L Device:LED_Small LD6
+U 1 1 5EFFCD6F
+P 1800 1700
+F 0 "LD6" H 1950 1750 50  0000 C CNN
+F 1 "20mA/1V" H 1800 1584 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Castellated" V 1800 1700 50  0001 C CNN
+F 3 "https://www.marktechopto.com/pdf/products/datasheet/MTSM5014-199-IR.pdf" V 1800 1700 50  0001 C CNN
+	1    1800 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R10
+U 1 1 5EFFCD79
+P 1400 1700
+F 0 "R10" V 1450 1550 50  0000 C CNN
+F 1 "75/1%" V 1295 1700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1400 1700 50  0001 C CNN
+F 3 "~" H 1400 1700 50  0001 C CNN
+	1    1400 1700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1500 1700 1700 1700
+Wire Wire Line
+	2000 1700 1900 1700
+Wire Wire Line
+	1300 1700 1200 1700
 $Comp
 L Device:LED_Small LD7
 U 1 1 5EFFCD90
@@ -871,7 +849,7 @@ L Device:R_Small R11
 U 1 1 5EFFCD9A
 P 1400 1400
 F 0 "R11" V 1450 1250 50  0000 C CNN
-F 1 "82/1%" V 1295 1400 50  0000 C CNN
+F 1 "75/1%" V 1295 1400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1400 1400 50  0001 C CNN
 F 3 "~" H 1400 1400 50  0001 C CNN
 	1    1400 1400
@@ -886,37 +864,54 @@ Wire Wire Line
 $Comp
 L Device:LED_Small LD8
 U 1 1 5EFFCDB1
-P 1800 1700
-F 0 "LD8" H 1950 1750 50  0000 C CNN
-F 1 "20mA/1V" H 1800 1600 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Castellated" V 1800 1700 50  0001 C CNN
-F 3 "https://www.marktechopto.com/pdf/products/datasheet/MTSM5016-199-IR.pdf" V 1800 1700 50  0001 C CNN
-	1    1800 1700
+P 3600 1400
+F 0 "LD8" H 3750 1450 50  0000 C CNN
+F 1 "20mA/1V" H 3600 1300 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Castellated" V 3600 1400 50  0001 C CNN
+F 3 "https://www.marktechopto.com/pdf/products/datasheet/MTSM5016-199-IR.pdf" V 3600 1400 50  0001 C CNN
+	1    3600 1400
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R_Small R12
 U 1 1 5EFFCDBB
-P 1400 1700
-F 0 "R12" V 1450 1550 50  0000 C CNN
-F 1 "82/1%" V 1295 1700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1400 1700 50  0001 C CNN
-F 3 "~" H 1400 1700 50  0001 C CNN
-	1    1400 1700
+P 3200 1400
+F 0 "R12" V 3250 1250 50  0000 C CNN
+F 1 "165/1%" V 3095 1400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3200 1400 50  0001 C CNN
+F 3 "~" H 3200 1400 50  0001 C CNN
+	1    3200 1400
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1500 1700 1700 1700
+	3300 1400 3500 1400
 Wire Wire Line
-	2000 1700 1900 1700
+	3800 1400 3700 1400
 Wire Wire Line
-	1300 1700 1200 1700
+	3100 1400 3000 1400
 $Comp
 L Device:R_Small R13
 U 1 1 5F0AAE75
+P 3200 2600
+F 0 "R13" V 3250 2450 50  0000 C CNN
+F 1 "130/1%" V 3095 2600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3200 2600 50  0001 C CNN
+F 3 "~" H 3200 2600 50  0001 C CNN
+	1    3200 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3300 2600 3500 2600
+Wire Wire Line
+	3800 2600 3700 2600
+Wire Wire Line
+	3100 2600 3000 2600
+$Comp
+L Device:R_Small R14
+U 1 1 5F0AAE96
 P 1400 2600
-F 0 "R13" V 1450 2450 50  0000 C CNN
-F 1 "47/1%" V 1295 2600 50  0000 C CNN
+F 0 "R14" V 1450 2450 50  0000 C CNN
+F 1 "33/1%" V 1295 2600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1400 2600 50  0001 C CNN
 F 3 "~" H 1400 2600 50  0001 C CNN
 	1    1400 2600
@@ -929,11 +924,11 @@ Wire Wire Line
 Wire Wire Line
 	1300 2600 1200 2600
 $Comp
-L Device:R_Small R14
-U 1 1 5F0AAE96
+L Device:R_Small R15
+U 1 1 5F0AAEB7
 P 1400 2900
-F 0 "R14" V 1450 2750 50  0000 C CNN
-F 1 "47/1%" V 1295 2900 50  0000 C CNN
+F 0 "R15" V 1450 2750 50  0000 C CNN
+F 1 "22/1%" V 1295 2900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1400 2900 50  0001 C CNN
 F 3 "~" H 1400 2900 50  0001 C CNN
 	1    1400 2900
@@ -945,23 +940,6 @@ Wire Wire Line
 	2000 2900 1900 2900
 Wire Wire Line
 	1300 2900 1200 2900
-$Comp
-L Device:R_Small R15
-U 1 1 5F0AAEB7
-P 3200 2600
-F 0 "R15" V 3250 2450 50  0000 C CNN
-F 1 "110/1%" V 3095 2600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3200 2600 50  0001 C CNN
-F 3 "~" H 3200 2600 50  0001 C CNN
-	1    3200 2600
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3300 2600 3500 2600
-Wire Wire Line
-	3800 2600 3700 2600
-Wire Wire Line
-	3100 2600 3000 2600
 $Comp
 L Device:R_Small R16
 U 1 1 5F0AAED8
@@ -984,7 +962,7 @@ L Device:R_Small R17
 U 1 1 5F0AAEF9
 P 1400 3200
 F 0 "R17" V 1450 3050 50  0000 C CNN
-F 1 "33/1%" V 1295 3200 50  0000 C CNN
+F 1 "27/1%" V 1295 3200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1400 3200 50  0001 C CNN
 F 3 "~" H 1400 3200 50  0001 C CNN
 	1    1400 3200
@@ -1047,27 +1025,27 @@ Wire Wire Line
 	3800 3500 3700 3500
 Wire Wire Line
 	3100 3500 3000 3500
-Text Label 3800 2000 0    50   ~ 0
-LED1
 Text Label 3800 2300 0    50   ~ 0
+LED1
+Text Label 2000 2300 0    50   ~ 0
 LED2
 Text Label 2000 2000 0    50   ~ 0
 LED3
-Text Label 2000 2300 0    50   ~ 0
+Text Label 3800 2000 0    50   ~ 0
 LED4
-Text Label 3800 1400 0    50   ~ 0
-LED5
 Text Label 3800 1700 0    50   ~ 0
+LED5
+Text Label 2000 1700 0    50   ~ 0
 LED6
 Text Label 2000 1400 0    50   ~ 0
 LED7
-Text Label 2000 1700 0    50   ~ 0
+Text Label 3800 1400 0    50   ~ 0
 LED8
-Text Label 2000 2600 0    50   ~ 0
-LED9
-Text Label 2000 2900 0    50   ~ 0
-LED10
 Text Label 3800 2600 0    50   ~ 0
+LED9
+Text Label 2000 2600 0    50   ~ 0
+LED10
+Text Label 2000 2900 0    50   ~ 0
 LED11
 Text Label 3800 2900 0    50   ~ 0
 LED12
@@ -1426,66 +1404,62 @@ Wire Wire Line
 	1500 5300 1500 5200
 Text Label 3950 4700 0    50   ~ 0
 LED1
-Text Label 3950 4800 0    50   ~ 0
+Text Label 2000 4600 0    50   ~ 0
 LED2
 Text Label 2000 4500 0    50   ~ 0
 LED3
-Text Label 2000 4600 0    50   ~ 0
+Text Label 3950 4800 0    50   ~ 0
 LED4
 Text Label 3950 4900 0    50   ~ 0
 LED5
-Text Label 3950 5000 0    50   ~ 0
+Text Label 2000 4400 0    50   ~ 0
 LED6
 Text Label 2000 4300 0    50   ~ 0
 LED7
-Text Label 2000 4400 0    50   ~ 0
+Text Label 3950 5000 0    50   ~ 0
 LED8
-Wire Wire Line
-	2000 4400 1900 4400
-Wire Wire Line
-	1900 4300 2000 4300
 Wire Wire Line
 	3950 5000 3850 5000
 Wire Wire Line
+	1900 4300 2000 4300
+Wire Wire Line
+	2000 4400 1900 4400
+Wire Wire Line
 	3850 4900 3950 4900
 Wire Wire Line
-	2000 4600 1900 4600
+	3950 4800 3850 4800
 Wire Wire Line
 	1900 4500 2000 4500
 Wire Wire Line
-	3950 4800 3850 4800
+	2000 4600 1900 4600
 Wire Wire Line
 	3850 4700 3950 4700
 Text Label 2950 4700 2    50   ~ 0
 UC_LED1
-Text Label 2950 4800 2    50   ~ 0
-UC_LED2
 Text Label 1000 4500 2    50   ~ 0
 UC_LED3
-Text Label 1000 4600 2    50   ~ 0
+Text Label 2950 4800 2    50   ~ 0
 UC_LED4
 Text Label 2950 4900 2    50   ~ 0
 UC_LED5
-Text Label 2950 5000 2    50   ~ 0
+Text Label 1000 4400 2    50   ~ 0
 UC_LED6
 Text Label 1000 4300 2    50   ~ 0
 UC_LED7
-Text Label 1000 4400 2    50   ~ 0
+Text Label 2950 5000 2    50   ~ 0
 UC_LED8
-Wire Wire Line
-	1000 4400 1100 4400
-Wire Wire Line
-	1000 4300 1100 4300
 Wire Wire Line
 	2950 5000 3050 5000
 Wire Wire Line
+	1000 4300 1100 4300
+Wire Wire Line
+	1000 4400 1100 4400
+Wire Wire Line
 	2950 4900 3050 4900
 Wire Wire Line
-	1000 4600 1100 4600
+	2950 4800 3050 4800
 Wire Wire Line
 	1000 4500 1100 4500
-Wire Wire Line
-	2950 4800 3050 4800
 Wire Wire Line
 	2950 4700 3050 4700
 $Comp
@@ -1501,9 +1475,9 @@ F 3 "" H 3450 5300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3450 5300 3450 5200
-Text Label 2000 4800 0    50   ~ 0
+Text Label 3950 4600 0    50   ~ 0
 LED9
-Text Label 2000 4900 0    50   ~ 0
+Text Label 2000 5000 0    50   ~ 0
 LED14
 Text Label 3950 4400 0    50   ~ 0
 LED15
@@ -1514,20 +1488,20 @@ Wire Wire Line
 Wire Wire Line
 	3850 4400 3950 4400
 Wire Wire Line
-	2000 4900 1900 4900
+	2000 5000 1900 5000
 Wire Wire Line
-	1900 4800 2000 4800
-Text Label 1000 4800 2    50   ~ 0
+	3850 4600 3950 4600
+Text Label 2950 4600 2    50   ~ 0
 UC_LED9
 Text Label 1000 4700 2    50   ~ 0
 UC_LED10
-Text Label 2950 4600 2    50   ~ 0
+Text Label 1000 4800 2    50   ~ 0
 UC_LED11
 Text Label 2950 4500 2    50   ~ 0
 UC_LED12
-Text Label 1000 5000 2    50   ~ 0
-UC_LED13
 Text Label 1000 4900 2    50   ~ 0
+UC_LED13
+Text Label 1000 5000 2    50   ~ 0
 UC_LED14
 Text Label 2950 4400 2    50   ~ 0
 UC_LED15
@@ -1538,17 +1512,17 @@ Wire Wire Line
 Wire Wire Line
 	2950 4400 3050 4400
 Wire Wire Line
-	1000 4900 1100 4900
-Wire Wire Line
 	1000 5000 1100 5000
+Wire Wire Line
+	1000 4900 1100 4900
 Wire Wire Line
 	2950 4500 3050 4500
 Wire Wire Line
-	2950 4600 3050 4600
+	1000 4800 1100 4800
 Wire Wire Line
 	1000 4700 1100 4700
 Wire Wire Line
-	1000 4800 1100 4800
+	2950 4600 3050 4600
 $Comp
 L Transistor_Array:ULN2803A U5
 U 1 1 5F9A7CA7
@@ -1572,11 +1546,7 @@ F 3 "" H 1100 1100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3000 2000 3100 2000
-Wire Wire Line
-	1200 2000 1200 2300
-Connection ~ 1200 2000
-Connection ~ 1200 2300
+	3000 2300 3100 2300
 Wire Wire Line
 	3000 3200 3000 3500
 Connection ~ 3000 3200
@@ -1770,12 +1740,12 @@ Wire Wire Line
 $Comp
 L Device:LED_Small LD2
 U 1 1 5EEB3502
-P 3600 2300
-F 0 "LD2" H 3750 2350 50  0000 C CNN
-F 1 "20mA/1.3V" H 3600 2184 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3600 2300 50  0001 C CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/APT1608SF4C-PRV.pdf" V 3600 2300 50  0001 C CNN
-	1    3600 2300
+P 1800 2300
+F 0 "LD2" H 1950 2350 50  0000 C CNN
+F 1 "20mA/1.3V" H 1800 2184 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1800 2300 50  0001 C CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/APT1608SF4C-PRV.pdf" V 1800 2300 50  0001 C CNN
+	1    1800 2300
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1831,16 +1801,16 @@ $EndComp
 Wire Wire Line
 	2000 4700 1900 4700
 Wire Wire Line
-	3850 4600 3950 4600
+	1900 4800 2000 4800
 Wire Wire Line
 	3950 4500 3850 4500
 Wire Wire Line
-	1900 5000 2000 5000
-Text Label 2000 5000 0    50   ~ 0
+	1900 4900 2000 4900
+Text Label 2000 4900 0    50   ~ 0
 LED13
 Text Label 3950 4500 0    50   ~ 0
 LED12
-Text Label 3950 4600 0    50   ~ 0
+Text Label 2000 4800 0    50   ~ 0
 LED11
 Text Label 2000 4700 0    50   ~ 0
 LED10
@@ -1948,34 +1918,34 @@ Transimpedance Amplifiers
 $Comp
 L Device:LED_Small LD9
 U 1 1 5F0AAE6B
-P 1800 2600
-F 0 "LD9" H 1950 2650 50  0000 C CNN
-F 1 "20mA/1.7V" H 1800 2484 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Castellated" V 1800 2600 50  0001 C CNN
-F 3 "https://www.marktechopto.com/pdf/products/datasheet/MTSM0074-843-IR.pdf" V 1800 2600 50  0001 C CNN
-	1    1800 2600
+P 3600 2600
+F 0 "LD9" H 3750 2650 50  0000 C CNN
+F 1 "20mA/1.7V" H 3600 2484 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Castellated" V 3600 2600 50  0001 C CNN
+F 3 "https://www.marktechopto.com/pdf/products/datasheet/MTSM0074-843-IR.pdf" V 3600 2600 50  0001 C CNN
+	1    3600 2600
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED_Small LD10
 U 1 1 5F0AAE8C
-P 1800 2900
-F 0 "LD10" H 1950 2950 50  0000 C CNN
-F 1 "20mA/1.8V" H 1800 2784 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Castellated" V 1800 2900 50  0001 C CNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493888/LH%20R974.pdf" V 1800 2900 50  0001 C CNN
-	1    1800 2900
+P 1800 2600
+F 0 "LD10" H 1950 2650 50  0000 C CNN
+F 1 "20mA/1.8V" H 1800 2484 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Castellated" V 1800 2600 50  0001 C CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493888/LH%20R974.pdf" V 1800 2600 50  0001 C CNN
+	1    1800 2600
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED_Small LD11
 U 1 1 5F0AAEAD
-P 3600 2600
-F 0 "LD11" H 3750 2650 50  0000 C CNN
-F 1 "20mA/2.1V" H 3600 2500 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3600 2600 50  0001 C CNN
-F 3 "http://www.stanley-components.com/php/downloaddatafile.php?rp=0,FKR1111C-TR_e.pdf" V 3600 2600 50  0001 C CNN
-	1    3600 2600
+P 1800 2900
+F 0 "LD11" H 1950 2950 50  0000 C CNN
+F 1 "20mA/2.1V" H 1800 2800 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1800 2900 50  0001 C CNN
+F 3 "http://www.stanley-components.com/php/downloaddatafile.php?rp=0,FKR1111C-TR_e.pdf" V 1800 2900 50  0001 C CNN
+	1    1800 2900
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -2523,11 +2493,9 @@ Wire Wire Line
 	10400 3550 10300 3550
 Connection ~ 10300 3550
 Wire Notes Line
-	1950 3050 1650 3050
-Wire Notes Line
-	1650 2500 1950 2500
-Text Notes 2050 2800 0    50   ~ 0
-Assembly Warning:\nLEDs have ANODE mark!
+	1950 2750 1650 2750
+Text Notes 3800 2800 0    50   ~ 0
+Assembly Warning:\nLED has ANODE mark!
 Text Label 5200 1800 2    50   ~ 0
 NRST
 Wire Wire Line
@@ -2608,10 +2576,6 @@ F 3 "~" H 8000 1300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8400 3550 8900 3550
-Wire Notes Line
-	1950 2500 1950 3050
-Wire Notes Line
-	1650 2500 1650 3050
 $Comp
 L Device:C_Small C34
 U 1 1 5EF49AFD
@@ -2805,74 +2769,29 @@ F 3 "" H 2000 6400 50  0001 C CNN
 	1    2000 6400
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	1200 2300 1200 2600
 Connection ~ 1200 3200
 Wire Wire Line
 	1200 3200 1200 3500
-Connection ~ 3000 2600
-Wire Wire Line
-	3000 2600 3000 2900
 Connection ~ 3000 2900
 Wire Wire Line
 	3000 2900 3000 3200
-Connection ~ 1200 2600
-Wire Wire Line
-	1200 2600 1200 2900
-Connection ~ 1200 2900
-Wire Wire Line
-	1200 2900 1200 3200
-Connection ~ 3000 2000
-Wire Wire Line
-	3000 2000 3000 2300
-Connection ~ 3000 2300
-Wire Wire Line
-	3000 2300 3000 2600
-Wire Wire Line
-	3000 1100 3000 1400
-Connection ~ 3000 1400
-Wire Wire Line
-	3000 1400 3000 1700
-Connection ~ 3000 1700
-Wire Wire Line
-	3000 1700 3000 2000
-Wire Wire Line
-	1200 1100 1200 1400
-Connection ~ 1200 1400
-Wire Wire Line
-	1200 1400 1200 1700
-Connection ~ 1200 1700
-Wire Wire Line
-	1200 1700 1200 2000
 Wire Wire Line
 	8600 1000 8700 1000
 Text Label 6700 3600 0    50   ~ 0
 UC_LED7
-Text Label 6700 3500 0    50   ~ 0
+Text Label 6700 3400 0    50   ~ 0
 UC_LED8
 Text Label 5200 3800 2    50   ~ 0
 UC_LED3
-Text Label 6700 3700 0    50   ~ 0
-UC_LED4
-Text Label 5200 3100 2    50   ~ 0
-UC_LED14
 Wire Wire Line
 	5200 3100 5300 3100
-Text Label 5200 3200 2    50   ~ 0
-UC_LED9
-Text Label 5200 3300 2    50   ~ 0
-UC_LED10
-Text Label 6700 4200 0    50   ~ 0
-UC_LED13
-Text Label 6700 3400 0    50   ~ 0
+Text Label 6700 3500 0    50   ~ 0
 UC_LED6
 Text Label 6700 3100 0    50   ~ 0
 UC_LED5
-Text Label 5200 2300 2    50   ~ 0
-UC_LED2
 Text Label 5200 2400 2    50   ~ 0
 UC_LED1
-Text Label 5200 2500 2    50   ~ 0
+Text Label 5200 3200 2    50   ~ 0
 UC_LED11
 Text Label 6700 2700 0    50   ~ 0
 UC_LED12
@@ -2963,14 +2882,105 @@ Wire Wire Line
 Text Label 10500 2100 0    50   ~ 0
 UC_LED_STATUS
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0116
 U 1 1 5F0E76F7
 P 9700 2100
-F 0 "#PWR?" H 9700 1950 50  0001 C CNN
+F 0 "#PWR0116" H 9700 1950 50  0001 C CNN
 F 1 "+3.3V" V 9715 2228 50  0000 L CNN
 F 2 "" H 9700 2100 50  0001 C CNN
 F 3 "" H 9700 2100 50  0001 C CNN
 	1    9700 2100
 	0    -1   -1   0   
+$EndComp
+Connection ~ 3000 2600
+Wire Wire Line
+	3000 2600 3000 2900
+Text Notes 2000 2800 0    50   ~ 0
+Assembly Warning:\nLED has ANODE mark!
+Wire Notes Line
+	1650 2750 1650 2450
+Wire Notes Line
+	1650 2450 1950 2450
+Wire Notes Line
+	1950 2450 1950 2750
+Wire Notes Line
+	3750 2450 3750 2750
+Wire Notes Line
+	3750 2750 3450 2750
+Wire Notes Line
+	3450 2750 3450 2450
+Wire Notes Line
+	3450 2450 3750 2450
+Text Label 5200 3100 2    50   ~ 0
+UC_LED13
+Text Label 6700 4200 0    50   ~ 0
+UC_LED14
+Wire Wire Line
+	1000 4600 1100 4600
+Text Label 1000 4600 2    50   ~ 0
+UC_LED2
+Text Label 6700 3700 0    50   ~ 0
+UC_LED2
+Text Label 5200 2300 2    50   ~ 0
+UC_LED4
+Connection ~ 1200 2900
+Wire Wire Line
+	1200 2900 1200 3200
+Connection ~ 1200 2600
+Wire Wire Line
+	1200 2600 1200 2900
+Connection ~ 3000 2300
+Wire Wire Line
+	3000 2300 3000 2600
+Connection ~ 3000 2000
+Wire Wire Line
+	3000 2000 3000 2300
+Connection ~ 3000 1700
+Wire Wire Line
+	3000 1700 3000 2000
+Wire Wire Line
+	3000 1100 3000 1400
+Connection ~ 3000 1400
+Wire Wire Line
+	3000 1400 3000 1700
+Connection ~ 1200 2300
+Wire Wire Line
+	1200 2300 1200 2600
+Connection ~ 1200 2000
+Wire Wire Line
+	1200 2000 1200 2300
+Wire Wire Line
+	1200 1100 1200 1400
+Connection ~ 1200 1700
+Wire Wire Line
+	1200 1700 1200 2000
+Connection ~ 1200 1400
+Wire Wire Line
+	1200 1400 1200 1700
+Text Label 5200 2500 2    50   ~ 0
+UC_LED9
+Text Label 5200 3300 2    50   ~ 0
+UC_LED10
+$Comp
+L Device:R_Small R8
+U 1 1 5EEC5A7A
+P 3200 2000
+F 0 "R8" V 3250 1850 50  0000 C CNN
+F 1 "56/1%" V 3095 2000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3200 2000 50  0001 C CNN
+F 3 "~" H 3200 2000 50  0001 C CNN
+	1    3200 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 5EEB3508
+P 1400 2300
+F 0 "R6" V 1450 2150 50  0000 C CNN
+F 1 "56/1%" V 1295 2300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1400 2300 50  0001 C CNN
+F 3 "~" H 1400 2300 50  0001 C CNN
+	1    1400 2300
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
