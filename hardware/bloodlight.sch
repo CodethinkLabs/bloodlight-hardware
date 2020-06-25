@@ -1732,11 +1732,11 @@ Wire Wire Line
 Wire Wire Line
 	6700 3400 6600 3400
 Wire Wire Line
-	6600 3200 6700 3200
+	6600 3300 6700 3300
 Wire Wire Line
 	6700 3000 6600 3000
 Wire Wire Line
-	6600 3100 6700 3100
+	6600 3200 6700 3200
 $Comp
 L Device:LED_Small LD2
 U 1 1 5EEB3502
@@ -1814,7 +1814,6 @@ Text Label 2000 4800 0    50   ~ 0
 LED11
 Text Label 2000 4700 0    50   ~ 0
 LED10
-NoConn ~ 6600 3300
 NoConn ~ 5300 2700
 Wire Wire Line
 	6700 2800 6600 2800
@@ -2708,9 +2707,9 @@ F 3 "" H 4550 1500 50  0001 C CNN
 	1    4550 1500
 	1    0    0    -1  
 $EndComp
-Text Label 6700 3000 0    50   ~ 0
+Text Label 6700 3400 0    50   ~ 0
 VOLT_5V0
-Text Label 6700 3200 0    50   ~ 0
+Text Label 6700 3000 0    50   ~ 0
 PDV4
 Text Label 5200 2800 2    50   ~ 0
 PDV3
@@ -2779,15 +2778,13 @@ Wire Wire Line
 	8600 1000 8700 1000
 Text Label 6700 3600 0    50   ~ 0
 UC_LED7
-Text Label 6700 3400 0    50   ~ 0
-UC_LED8
 Text Label 5200 3800 2    50   ~ 0
 UC_LED3
 Wire Wire Line
 	5200 3100 5300 3100
 Text Label 6700 3500 0    50   ~ 0
 UC_LED6
-Text Label 6700 3100 0    50   ~ 0
+Text Label 6700 3300 0    50   ~ 0
 UC_LED5
 Text Label 5200 2400 2    50   ~ 0
 UC_LED1
@@ -2983,4 +2980,7 @@ F 3 "~" H 1400 2300 50  0001 C CNN
 	1    1400 2300
 	0    1    1    0   
 $EndComp
+Text Label 6700 3200 0    50   ~ 0
+UC_LED8
+NoConn ~ 6600 3100
 $EndSCHEMATC
