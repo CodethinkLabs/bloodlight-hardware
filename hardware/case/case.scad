@@ -168,10 +168,16 @@ module case_top()
 			{
 				linear_extrude(height = 7.5)
 					case_top_shape();
-				translate([0, 0, -2]) {
+				translate([0, 0, -2])
+				{
 					linear_extrude(height = 10)
 						offset(r = -1.5)
 							case_top_shape();
+				}
+				// do  the connector hole while we're diffing
+				translate([5.5, 70, 2])
+				{
+					cube([20, 15, 5]);
 				}
 			}
 		}
@@ -270,7 +276,7 @@ module render_whole_assembly()
 	translate([0,0,-6])
 		board();
 	translate([2.5,2.5,0])
-		case_top();
+		color([1,1,1,0.5])case_top();
 	translate([2.5,2.5,-8])
 		case_bottom();
 }
