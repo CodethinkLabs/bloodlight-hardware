@@ -94,6 +94,26 @@ module screw_corner_tap()
 	}
 }
 
+// slits to go at the side of the case that allow a 75mm wide strap to pass
+// through
+module strap_wing()
+{
+	difference()
+	{
+		intersection()
+		{
+			linear_extrude(height = 5)
+				case_top_shape();
+			translate([-10,-10,-1.5])
+				cube([15,90,5]);
+		}
+		translate([-3,0,-1])
+			cube([20,75,7]);
+		translate([1,-3.5,-1])
+			cube([20,80,7]);
+	}
+}
+
 // hole shape for the top of the case to go on the edge for the screw to tap
 // into
 module screw_edge_tap()
@@ -128,56 +148,67 @@ module screw_edge_tap()
 // for the board
 module case_top()
 {
-	// top of the top
-	difference()
+	union()
 	{
-		color("yellow")
-			case_top_base();
-		// status LED hole
-		translate([8,63.6,-2])
-			cube([2,1,5]);
-	}
-
-	// extrude the footprint of the top, then cut into it with a scaled
-	// version to make the outer wall of the case
-	translate([0, 0, -8])
-	{
+		// top of the top
 		difference()
 		{
-			linear_extrude(height = 7.5)
-				case_top_shape();
-			translate([0, 0, -2]) {
-				linear_extrude(height = 10)
-					offset(r = -1.5)
-						case_top_shape();
+			color("yellow")
+				case_top_base();
+			// status LED hole
+			translate([8,63.6,-2])
+				cube([2,1,5]);
+		}
+
+		// extrude the footprint of the top, then cut into it with a scaled
+		// version to make the outer wall of the case
+		translate([0, 0, -8])
+		{
+			difference()
+			{
+				linear_extrude(height = 7.5)
+					case_top_shape();
+				translate([0, 0, -2]) {
+					linear_extrude(height = 10)
+						offset(r = -1.5)
+							case_top_shape();
+				}
 			}
 		}
-	}
-	// screw fixings
-	color("blue")
-	{
-		// bottom left screw tap
-		translate([0,0,-2.3])
-			scale([1,1,2])
-				//screw_tap_m2();
-				screw_corner_tap();
-		// bottom right screw tap
-		translate([23,00,-2.3])
-			rotate([0,0,90])
+		// screw fixings
+		color("blue")
+		{
+			// bottom left screw tap
+			translate([0,0,-2.3])
 				scale([1,1,2])
+					//screw_tap_m2();
 					screw_corner_tap();
-		// top left screw tap
-		translate([0,72.9,-2.3])
-			rotate([0,0,270])
+			// bottom right screw tap
+			translate([23,00,-2.3])
+				rotate([0,0,90])
+					scale([1,1,2])
+						screw_corner_tap();
+			// top left screw tap
+			translate([0,72.9,-2.3])
+				rotate([0,0,270])
+					scale([1,1,2])
+						screw_corner_tap();
+			// top right screw tap
+			translate([23,61.5,-2.3])
 				scale([1,1,2])
-					screw_corner_tap();
-		// top right screw tap
-		translate([23,61.5,-2.3])
-			scale([1,1,2])
-				rotate([0,0,180])
-					screw_edge_tap();
+					rotate([0,0,180])
+						screw_edge_tap();
+		}
+		translate([-5, 0, -8])
+		{
+			strap_wing();
+		}
+		translate([28, 0, -4.5])
+		{
+			rotate([0,180,0])
+				strap_wing();
+		}
 	}
-
 }
 
 // the bottom of the case, with screw passthrough holes for screwing to the top
@@ -248,11 +279,11 @@ module render_whole_assembly()
 module render_top_bottom_side_by_side()
 {
 
-	translate([30,5,1])
+	translate([34,5,1])
 		// render "upside down" for printng
 		rotate([0,180,0])
 			case_top();
-	translate([65,4,2])
+	translate([75,4,2])
 		// render "upside down" for printng
 			rotate([0,180,0])
 				case_bottom();
