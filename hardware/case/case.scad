@@ -174,10 +174,24 @@ module case_top()
 						offset(r = -1.5)
 							case_top_shape();
 				}
-				// do  the connector hole while we're diffing
+				// do  the connector holes while we're diffing
+				// usb and debug
 				translate([5.5, 70, 2])
 				{
 					cube([20, 15, 5]);
+				}
+				// spi
+				translate([5, 63.5, 3.5])
+				{
+					cube([40, 8, 5]);
+				}
+				// and some venting holes
+				for (i = [0:5])
+				{
+					translate([-10, 14 +(i * 10), 4])
+					{
+						cube([50, 5, 2]);
+					}
 				}
 			}
 		}
@@ -296,3 +310,6 @@ module render_top_bottom_side_by_side()
 }
 
 render_top_bottom_side_by_side();
+
+translate([0,-90,10])
+    render_whole_assembly();
