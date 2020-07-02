@@ -616,7 +616,7 @@ C;X15;Y42;K1
 C;X16;Y42;K0
 C;X17;Y42;K"https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html"
 C;X1;Y43;K"Capacitor, 1uF, 50V"
-C;X2;Y43;K"C15-17, C19, C26, 35"
+C;X2;Y43;K"C15-17, C19, C26, C35"
 C;X3;Y43;K"Bulk"
 C;X4;Y43;K"Samsung Electro-Mechanics"
 C;X5;Y43;K"CL21B105KBFNNNE"
