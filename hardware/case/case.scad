@@ -1,4 +1,6 @@
 use <case-parts.scad>
+include <codethink-logo-def.scad>
+
 // dimensions of the box footprint in mm
 box_x = 33;
 box_y = 83;
@@ -21,13 +23,6 @@ module board()
 	{
 		cube([5,5,board_top_clearance]);
 	}
-	// don't render a bottom clearance block as we just have holes for
-	// compotents on the bottom side (LEDs and sensors)
-	/*translate([10,5,-board_bottom_clearance])
-	{
-		cube([5,5,board_bottom_clearance]);
-	}*/
-
 }
 
 // basic shape of the top of the case
@@ -228,6 +223,12 @@ module case_top()
 			rotate([0,180,0])
 				strap_wing();
 		}
+		translate([11, 30, 0.9])
+		{
+			rotate([0,0,90])
+				linear_extrude(height=0.6, convexity=1)
+					codethink();
+		}
 	}
 }
 
@@ -281,6 +282,20 @@ module case_bottom()
 				}
 			}
 		}
+
+		// text
+		translate([10, 65, 0.1])
+		{
+			rotate([0,180,90])
+			{
+				linear_extrude(height = 1)
+				{
+					text("Designed by Codethink in Manchester",1);
+					translate([0,-2,0])
+						text("Assembled wherever",1);
+				}
+			}
+		}
 	}
 }
 
@@ -310,6 +325,3 @@ module render_top_bottom_side_by_side()
 }
 
 render_top_bottom_side_by_side();
-
-translate([0,-90,10])
-    render_whole_assembly();
