@@ -80,12 +80,14 @@ module screw_corner_tap()
 
 				hull()
 				{
-					screw_tap_m2();
+					screw_tap_m2_for_printing();
 				}
 
 			}
 		}
-		screw_tap_m2();
+		// change to screw_tap_m2 for non-3d printed when self-tapping
+		// screws need to be used
+		screw_tap_m2_for_printing();
 	}
 }
 
@@ -131,11 +133,11 @@ module screw_edge_tap()
 			{
 				hull()
 				{
-					screw_tap_m2();
+					screw_tap_m2_for_printing();
 				}
 			}
 		}
-		screw_tap_m2();
+		screw_tap_m2_for_printing();
 	}
 }
 
@@ -157,28 +159,37 @@ module case_top()
 
 		// extrude the footprint of the top, then cut into it with a scaled
 		// version to make the outer wall of the case
-		translate([0, 0, -8])
+		translate([0, 0, -11])
 		{
 			difference()
 			{
-				linear_extrude(height = 7.5)
-					case_top_shape();
+				union()
+				{
+					linear_extrude(height = 10.5)
+						case_top_shape();
+					translate([-5, 0, 0])
+						strap_wing();
+					translate([28, 0, 3.5])
+						rotate([0,180,0])
+							strap_wing();
+				}
+				
 				translate([0, 0, -2])
 				{
-					linear_extrude(height = 10)
+					linear_extrude(height = 13)
 						offset(r = -1.5)
 							case_top_shape();
 				}
 				// do  the connector holes while we're diffing
 				// usb and debug
-				translate([5.5, 70, 2])
+				translate([5.5, 70, 3.2])
 				{
-					cube([20, 15, 5]);
+					cube([20, 15, 7]);
 				}
 				// spi
-				translate([5, 63.5, 3.5])
+				translate([5, 42.5, 3.50001])
 				{
-					cube([40, 8, 5]);
+					cube([40, 17, 5]);
 				}
 				// and some venting holes
 				for (i = [0:5])
@@ -194,34 +205,24 @@ module case_top()
 		color("blue")
 		{
 			// bottom left screw tap
-			translate([0,0,-2.3])
-				scale([1,1,2])
-					//screw_tap_m2();
+			translate([0,0,-4])
+				scale([1,1,3.3])
 					screw_corner_tap();
 			// bottom right screw tap
-			translate([23,00,-2.3])
+			translate([23,0,-4])
 				rotate([0,0,90])
-					scale([1,1,2])
+					scale([1,1,3.3])
 						screw_corner_tap();
 			// top left screw tap
-			translate([0,72.9,-2.3])
+			translate([0,72.9,-4])
 				rotate([0,0,270])
-					scale([1,1,2])
+					scale([1,1,3.3])
 						screw_corner_tap();
 			// top right screw tap
-			translate([23,61.5,-2.3])
-				scale([1,1,2])
+			translate([23,61.5,-4])
+				scale([1,1,3.3])
 					rotate([0,0,180])
 						screw_edge_tap();
-		}
-		translate([-5, 0, -8])
-		{
-			strap_wing();
-		}
-		translate([28, 0, -4.5])
-		{
-			rotate([0,180,0])
-				strap_wing();
 		}
 		translate([11, 30, 0.9])
 		{
@@ -245,24 +246,32 @@ module case_bottom()
 
 		// bottom left screw hole
 		translate([0,0,0])
-			scale([1,1,5])
+		{
+			countersunk_screw_passthrough_m2();
+			scale([1,1,2.5])
 				passthrough_screw_hole_m2();
+		}
 		// bottom right screw hole
 		translate([23,0,0])
-			scale([1,1,5])
+		{
+			countersunk_screw_passthrough_m2();
+			scale([1,1,2.5])
 				passthrough_screw_hole_m2();
+		}
 		// top left screw hole
 		translate([0,72.9,0])
-			scale([1,1,5])
+		{
+			countersunk_screw_passthrough_m2();
+			scale([1,1,2.5])
 				passthrough_screw_hole_m2();
+		}
 		// top right screw hole
 		translate([23,61.5,0])
-			scale([1,1,5])
+		{
+			countersunk_screw_passthrough_m2();
+			scale([1,1,2.5])
 				passthrough_screw_hole_m2();
-		translate([23,61.5,0])
-			scale([1,1,5])
-				passthrough_screw_hole_m2();
-
+		}
 		// led and sensor holes
 		for (i = [0:2])
 		{
@@ -302,11 +311,12 @@ module case_bottom()
 // render the entire assembly as it should be when put together
 module render_whole_assembly()
 {
-	translate([0,0,-6])
+	translate([0,0,-9])
 		board();
 	translate([2.5,2.5,0])
-		color([1,1,1,0.5])case_top();
-	translate([2.5,2.5,-8])
+		color([1,1,1,0.5])
+			case_top();
+	translate([2.5,2.5,-11])
 		case_bottom();
 }
 
