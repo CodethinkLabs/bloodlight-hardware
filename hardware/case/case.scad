@@ -293,7 +293,7 @@ module case_bottom()
 		}
 
 		// text
-		translate([10, 65, 0.1])
+		/*translate([10, 65, 0.1])
 		{
 			rotate([0,180,90])
 			{
@@ -304,7 +304,7 @@ module case_bottom()
 						text("Assembled wherever",1);
 				}
 			}
-		}
+		}*/
 	}
 }
 
@@ -324,9 +324,7 @@ module render_whole_assembly()
 module render_top_bottom_side_by_side()
 {
 
-	translate([34,5,1])
-		// render "upside down" for printng
-		rotate([0,180,0])
+	translate([10,5,11])
 			case_top();
 	translate([75,4,2])
 		// render "upside down" for printng
