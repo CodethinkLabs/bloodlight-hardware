@@ -285,7 +285,7 @@ module case_bottom()
 					{
 						// remember minkowski sums the sizes so we need to have
 						// some fiddly values here to get a nice shape
-						cube([2,25,0.1], center=true);
+						cube([3.75,26,0.1], center=true);
 						smooth_hole();
 					}
 				}
