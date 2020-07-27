@@ -293,7 +293,7 @@ module case_bottom()
 		}
 
 		// text
-		*translate([10, 65, 0.1])
+		/*translate([10, 65, 0.1])
 		{
 			rotate([0,180,90])
 			{
@@ -304,7 +304,7 @@ module case_bottom()
 						text("Assembled wherever",1);
 				}
 			}
-		}
+		}*/
 	}
 }
 
