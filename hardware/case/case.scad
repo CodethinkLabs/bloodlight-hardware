@@ -167,11 +167,13 @@ module case_top()
 				{
 					linear_extrude(height = 10.5)
 						case_top_shape();
-					translate([-5, 0, 0])
-						strap_wing();
-					translate([28, 0, 3.5])
-						rotate([0,180,0])
+					translate([-5, -2.15, 6])
+						scale([1, 0.57, 1])
 							strap_wing();
+					translate([28, -2.15, 9.5])
+						rotate([0,180,0])
+							scale([1, 0.57, 1])
+								strap_wing();
 				}
 				
 				translate([0, 0, -2])
