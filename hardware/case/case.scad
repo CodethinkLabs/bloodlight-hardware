@@ -106,8 +106,6 @@ module strap_wing()
 		}
 		translate([-3,0,-1])
 			cube([20,75,7]);
-		translate([1,-3.5,-1])
-			cube([20,80,7]);
 	}
 }
 
