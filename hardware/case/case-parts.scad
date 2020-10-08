@@ -1,3 +1,12 @@
+// Model of an m2x6mm screw to check whether it fits
+module screw_m2()
+{
+	union()
+	{
+		cylinder(d=2, h=6, $fn=30);
+		cylinder(d1=3.8, d2=2, h=1.2, $fn=30);
+	}
+}
 
 // difference this into something to create the appropriate sized hole for
 // an m2 to pass through
