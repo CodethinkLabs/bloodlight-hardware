@@ -1,5 +1,4 @@
 use <case-parts.scad>
-include <codethink-logo-def.scad>
 
 // dimensions of the box footprint in mm
 box_x = 33;
@@ -224,12 +223,11 @@ module case_top()
 					rotate([0,0,180])
 						screw_edge_tap();
 		}
-		translate([11, 30, 0.9])
-		{
-			rotate([0,0,90])
-				linear_extrude(height=0.6, convexity=1)
-					codethink();
-		}
+		translate([19, 0, 0.9])
+		scale([0.5,0.5,1])
+				rotate([0,0,90])
+					linear_extrude(height=0.6, convexity=1)
+						import("../../branding/bloodlight.text.svg");
 	}
 }
 
