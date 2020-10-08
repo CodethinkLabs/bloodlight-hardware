@@ -19,7 +19,7 @@ module passthrough_screw_hole_m2()
 // flush with the edge of the case
 module countersunk_screw_passthrough_m2()
 {
-	cylinder(d1=3.5, d2=2.2, h=1, center=true, $fn=30);
+	cylinder(d1=4.2, d2=2.2, h=1.2, center=true, $fn=30);
 }
 
 // a profile of a tapping hole for an m2 screw to screw into for mounting

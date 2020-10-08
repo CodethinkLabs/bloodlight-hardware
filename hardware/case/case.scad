@@ -261,28 +261,32 @@ module case_bottom()
 		// bottom left screw hole
 		translate([0,0,0])
 		{
-			countersunk_screw_passthrough_m2();
+			translate([0,0,0.6])
+				countersunk_screw_passthrough_m2();
 			scale([1,1,2.5])
 				passthrough_screw_hole_m2();
 		}
 		// bottom right screw hole
 		translate([23,0,0])
 		{
-			countersunk_screw_passthrough_m2();
+			translate([0,0,0.6])
+				countersunk_screw_passthrough_m2();
 			scale([1,1,2.5])
 				passthrough_screw_hole_m2();
 		}
 		// top left screw hole
 		translate([0,72.9,0])
 		{
-			countersunk_screw_passthrough_m2();
+			translate([0,0,0.6])
+				countersunk_screw_passthrough_m2();
 			scale([1,1,2.5])
 				passthrough_screw_hole_m2();
 		}
 		// top right screw hole
 		translate([23,61.5,0])
 		{
-			countersunk_screw_passthrough_m2();
+			translate([0,0,0.6])
+				countersunk_screw_passthrough_m2();
 			scale([1,1,2.5])
 				passthrough_screw_hole_m2();
 		}
