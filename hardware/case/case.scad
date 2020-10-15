@@ -311,7 +311,7 @@ module case_bottom()
 // render the entire assembly as it should be when put together
 module render_whole_assembly()
 {
-	translate([0,0,-9])
+	translate([0,0,-8.1])
 		board();
 	translate([2.5,2.5,0])
 		color([1,1,1,0.5])
