@@ -19,6 +19,29 @@ If you wish to send the board off for manufacturing or creat an accurate render
 then you'll need the kicad-util tool which can be found here:
 <https://gitlab.com/dren.dk/kicad-util>
 
+# Generating a model for the case
+
+In addition to the above tools, you will also need blender <https://www.blender.org/>.
+
+## 1. Delete the faceplate
+
+The faceplate is not required for the case and will only get in the way.
+
+Using kicad 5, open up `bloodlight.pro`, then `bloodlight.kicad_pcb`.
+
+Select and drag around the entire face plate to the right and delete it.
+
+Then, click on the lines going from the main board to the faceplate and delete those, too.
+
+## 2. Export the model to vrml
+
+From the pcb viewer, do `File->export->VRML`, and ensure the output units are in mm.
+The file should be named something like bloodlight.wrl
+
+## 3. Convert the VRML to STL
+
+Run `blender --background --python blender-wrl-to-stl.py -- bloodlight.wrl`
+This will generate a board.stl in the same directory as bloodlight.wrl.
 
 # Manufacture
 
