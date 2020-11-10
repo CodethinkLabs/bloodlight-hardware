@@ -224,6 +224,16 @@ module case_top()
 					rotate([0,0,180])
 						screw_edge_tap();
 		}
+		// micro-usb adapter support
+		translate([10.2,71.5,-5.6])
+			rotate([0,-90,180])
+				linear_extrude(2.6)
+					polygon([[0,0], [0,1], [5,5], [5,0]]);
+		// guidance cuboid to indicate where the back of the micro-usb connector is
+		//color("orange")
+		//	translate([10.2,71.5,-5.6])
+		//		cube([2.6,1,1]);
+
 		translate([11, 30, 0.9])
 		{
 			rotate([0,0,90])
@@ -329,7 +339,7 @@ module case_bottom()
 // render the entire assembly as it should be when put together
 module render_whole_assembly()
 {
-	translate([0,0,-9])
+	translate([0,0,-8.1])
 		board();
 	translate([2.5,2.5,0])
 		color([1,1,1,0.5])
