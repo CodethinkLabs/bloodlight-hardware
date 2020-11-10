@@ -14,7 +14,7 @@ module screw_m2()
 // an m2 to pass through
 module passthrough_screw_hole_m2()
 {
-	cylinder(d=2.2, h=2, center=true, $fn=30);
+	cylinder(d=2.1, h=2, center=true, $fn=30);
 }
 
 // difference this at the edge of a passthrough for countersunk screws to sit
@@ -26,7 +26,7 @@ module countersunk_screw_passthrough_m2()
 		translate([0,0,-0.6])
 			cylinder(d=4.2, h=0.4, center=true, $fn=30);
 		translate([0,0,0.1])
-			cylinder(d1=4.2, d2=2.2, h=1.0, center=true, $fn=30);
+			cylinder(d1=4.2, d2=2.1, h=1.0, center=true, $fn=30);
 	}
 }
 
