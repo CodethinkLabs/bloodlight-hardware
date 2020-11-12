@@ -152,7 +152,14 @@ module case_top()
 			// status LED hole
 			translate([8,63.6,-2])
 				cube([2,1,5]);
+			translate([19, 0, 0.3])
+				scale([0.5,0.5,1])
+					rotate([0,0,90])
+						linear_extrude(height=0.8, convexity=1)
+							import("../../branding/bloodlight.text.svg");
+
 		}
+
 
 		// extrude the footprint of the top, then cut into it with a scaled
 		// version to make the outer wall of the case
@@ -198,6 +205,7 @@ module case_top()
 						cube([50, 5, 2]);
 					}
 				}
+
 			}
 		}
 		// screw fixings
@@ -223,11 +231,6 @@ module case_top()
 					rotate([0,0,180])
 						screw_edge_tap();
 		}
-		translate([19, 0, 0.9])
-		scale([0.5,0.5,1])
-				rotate([0,0,90])
-					linear_extrude(height=0.6, convexity=1)
-						import("../../branding/bloodlight.text.svg");
 	}
 }
 
