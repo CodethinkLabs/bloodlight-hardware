@@ -39,7 +39,7 @@ module case_top_base()
 				cube([box_x, box_y, 1], center=true);
 				// expands the footprint of the cube by 5 in all directions
 				// due to minkowski summing
-				cylinder($fn=30, r1=5, r2=3, h=1, center=true);
+				cylinder($fn=30, r1=5, r2=4, h=1, center=true);
 			}
 		}
 	}
